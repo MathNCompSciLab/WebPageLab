@@ -1,18 +1,9 @@
-import { Geist, Geist_Mono } from "next/font/google";
+//import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
-import Navbar from "./Navbar";
 import Image from "next/image";
-
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Link from 'next/link';
+import Menuintegrantes from "../../components/menuintegrantes";
 
 export const metadata = {
   title: "Laboratorio de Ciencia Matematicas y Computacionales",
@@ -23,8 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-      <Navbar/>
+        
       
+       
       
         <header className="header">
           
@@ -33,10 +25,16 @@ export default function RootLayout({ children }) {
             <h1>Laboratorio de Ciencia Matematicas y Computacionales</h1>
             
               <ul className="nav-links">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/about">Acerca de</a></li>
-                <li><a href="/services">Servicios</a></li>
-                <li><a href="/contact">Contacto</a></li>
+                <li><Link href="/">Inicio</Link></li>
+                <Menuintegrantes/> 
+                <li><Link href="/proyectos">Proyectos</Link></li>
+                <li><Link href="/articulos">Articulos</Link></li>
+                <li><Link href="/oportunidades">Oportunidades</Link></li>
+                <li><Link href="/docencia">Docencia</Link></li>
+                <li><Link href="/seminario">Seminario</Link></li>
+                <li><Link href="/preguntas">Preguntas frecuentes</Link></li>
+
+
               </ul>
             
           </div>
@@ -48,7 +46,7 @@ export default function RootLayout({ children }) {
 
         <footer className="footer">
           <div className="container">
-            <p>&copy; 2023 Mi Proyecto Next.js. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Laboratorio de Ciencias Matematicas y Computacionales. Centro de Invetigacion en Computacion. Todos los derechos reservados.</p>
           </div>
         </footer>
       </body>
