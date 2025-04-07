@@ -1,20 +1,44 @@
 import Image from "next/image";
 import styles from './page.module.css';
+// Ensure this matches the export type
+import BannerRotativo from "../../components/bannerRotativo";   
 
 export default function Home() {
+  const banners = [
+    <div key="1" className={styles.bannerImagen}>
+      <Image 
+        src="/Ejemplo2.png" 
+        alt="Promoción 1" 
+        layout="fill"
+        objectFit="cover"
+        priority
+      />
+    </div>,
+    <div key="2" className={styles.bannerImagen}>
+      <Image 
+        src="/Ejemplo3.png" 
+        alt="Promoción 1" 
+        layout="fill"
+        objectFit="cover"
+        priority
+      />
+    </div>,
+    <div key="3" className={styles.bannerImagen}>
+    <Image 
+      src="/Ejemplo1.png" 
+      alt="Promoción 1" 
+      layout="fill"
+      objectFit="cover"
+      priority
+    />
+  </div>
+    ];
   return (
     <div>
-        <div className={styles.imagecontainer}>
-        <Image
-        src="/Ejemplo.png" 
-        alt="cinthia"
-        fill={true}
-        priority={true} 
-        className={styles.imagecustom}/>
+        
+       <div className={styles.imagecontainer}>
+         <BannerRotativo banners={banners} intervalo={"3000"} />
         </div>
-
-
-
 
       {/* Sección 1 */}
       <section className={styles.section1}>
@@ -23,6 +47,9 @@ export default function Home() {
           <p>Esta es la primera sección de nuestro sitio web.</p>
         </div>
       </section>
+      
+
+
 
 
       {/* Sección 3 */}
