@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 80px 0;
   }
-  .imagecontainer {
+  .bannerImagen {
     display: flex;
     position: relative;
     justify-content: center;
@@ -13,10 +13,41 @@
     height: 400px;
   }
   .imagecumtom{
-    margin: 0 auto;
-
+    object-fit: cover;
+  }
+  .contenedorBanner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
   }
   
+  .contenidoBanner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s linear;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .saliendo {
+    transform: translateX(-100%);
+  }
+  
+  .siguiente {
+    transform: translateX(100%);
+  }
+  
+  .entrando {
+    transform: translateX(0);
+  } 
+  
+  
+  
+
+
+
   /* Sección 1 */
   .section1 {
     background: linear-gradient(135deg, #000b49, #2575fc);
@@ -52,7 +83,7 @@
   }
   
   
-  /* Sección 3 */
+  /* Sección 2 */
   .section2 {
     background-color: #000000;
     text-align: center;

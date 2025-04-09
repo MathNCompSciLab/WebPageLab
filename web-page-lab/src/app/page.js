@@ -1,35 +1,35 @@
 import Image from "next/image";
 import styles from './page.module.css';
-// Ensure this matches the export type
+
 import BannerRotativo from "../../components/bannerRotativo";   
 
 export default function Home() {
   const banners = [
     <div key="1" className={styles.bannerImagen}>
       <Image 
-        src="/Ejemplo2.png" 
+        src="/Ejemplo1.png" 
         alt="Promoción 1" 
-        layout="fill"
-        objectFit="cover"
-        priority
+        fill={true}
+        className={styles.customImagen}
+        priority 
       />
     </div>,
     <div key="2" className={styles.bannerImagen}>
       <Image 
-        src="/Ejemplo3.png" 
-        alt="Promoción 1" 
-        layout="fill"
-        objectFit="cover"
-        priority
+        src="/Ejemplo2.png" 
+        alt="Promoción 2" 
+        fill={true}
+        className={styles.customImagen}
+        priority 
       />
     </div>,
     <div key="3" className={styles.bannerImagen}>
     <Image 
-      src="/Ejemplo1.png" 
-      alt="Promoción 1" 
-      layout="fill"
-      objectFit="cover"
-      priority
+      src="/Ejemplo3.png" 
+      alt="Promoción 3" 
+      fill={true}
+      className={styles.customImagen}
+      priority 
     />
   </div>
     ];
@@ -37,7 +37,7 @@ export default function Home() {
     <div>
         
        <div className={styles.imagecontainer}>
-         <BannerRotativo banners={banners} intervalo={"3000"} />
+         <BannerRotativo banners={banners} intervalo={"5000"} />
         </div>
 
       {/* Sección 1 */}
