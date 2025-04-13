@@ -1,0 +1,15 @@
+[
+    {
+      "id": "ismael",
+      "nombre": "Ismael Resendis Morales",
+      "cargo": "Servicio Social",
+      "imagen": "/",
+      "biografia": "jaja no vale madre",
+      "educacion": 
+      [
+        "Ingeniero en comunicaciones y electron"
+      ],
+      "contacto": "No disponible"
+    }
+
+  ]

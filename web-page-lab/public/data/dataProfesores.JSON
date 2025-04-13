@@ -1,0 +1,53 @@
+[
+    {
+      "id": "rocio",
+      "nombre": "Rocio",
+      "cargo": "Investigadora",
+      "imagen": "/",
+      "biografia": "Doctora en Ciencias de la Computación con especialización en inteligencia artificial...",
+      "educacion": 
+      [
+        "PhD en Ciencias de la Computación, Universidad de Buenos Aires",
+        "MSc en Ingeniería de Software, Universidad Nacional de Colombia"
+      ],
+      "contacto": "No disponible"
+    },
+    {
+      "id": "juan-carlos",
+      "nombre": "Juan Carlos Chimal Eguía",
+      "cargo": "Jefe de Laboratorio",
+      "imagen": "/integrantes/juan-carlos.png",
+      "biografia": "El Dr. Juan Carlos Chimal Eguía, obtuvo el título de Licenciatura en la Escuela Superior de Física y Matemáticas ESFM IPN en 1994, el grado de maestría en la misma ESFM- IPN en 1996 y el grado de Doctor en Ciencias en la misma ESFM-IPN en 2003. Actualmente, es profesor titular C del Centro de Investigación en Computación del IPN. Es autor de más de 80 artículos en revistas, congresos nacionales e internacionales. El Dr. Chimal ha sido profesor visitante en la Universidad de Alberta, Canadá. Las áreas de interés del Dr. Chimal son la Modelación y Simulación de Sistemas Físicos usando ecuaciones diferenciales, así como los sistemas complejos y la dinámica no lineal.",
+      "educacion": [
+        "Dr. en Ciencias en Fisicomatemáticas (2003)",
+        "M. en C. en Fisicomatemáticas (1996)",
+        "Lic. en Física y matemáticas (1994)"
+      ],
+      "contacto": "chimal@cic.ipn.mx"
+    },
+    {
+      "id": "carlos-fernando",
+      "nombre": "Carlos Fernando Aguilar Ibáñez",
+      "cargo": "Investigador",
+      "imagen": "/integrantes/carlos-fernando.png",
+      "biografia": "El doctor Carlos Fernando Ibáñez Aguilar es originario de Tuxpan, Veracruz, estudió la Licenciatura en Física y Matemáticas en la Escuela Superior de Física y Matemáticas del IPN, realizó estudios de maestría y doctorado en el área de Control Automático en el Centro de Investigación en Estudios Avanzados (CINVESTAV). Actualmente radica en el Distrito Federal y trabaja en el CIC. El doctor Aguilar Ibáñez se especializa en el diseño de algoritmos de control que permitan estabilizar diferentes sistemas físicos. Entre sus intereses de investigación se encuentran la identificación, sincronización y estabilización de sistemas caóticos con aplicación a las comunicaciones seguras y encriptadas.",
+      "educacion": [
+        "Dr. en Ingeniería Eléctrica (1999)",
+        "Lic. en Física",
+        "M. en C. en Ingeniería Eléctrica"
+      ],
+      "contacto": "carlosaguilari@cic.ipn.mx"
+    },
+    {
+      "id": "german-tellez",
+      "nombre": "Germán Téllez Castillo",
+      "cargo": "Investigador",
+      "imagen": "/integrantes/german-tellez.png",
+      "biografia": "Formación académica: Licenciatura en Matemáticas por UAP. Tesis: Sobre la teoría de grafos (Demostración de 51 teoremas, un lema y un corolario). Maestría: Ciencias (Computación) por IPN. Tesis: Los fractales un punto de convergencia de los autómatas celulares, los sistemas dinámicos y las redes neuronales. Áreas de Interés: ? Autómatas celulares. ? Sistemas complejos. ? Modelación computacional y matemática Aplicaciones: ? Tránsito vehicular y peatonal. ? Biología: crecimiento de microorganismos, dinámica de tejido celular y tumores. ? Epidemiología ? Criptografía. ? Economía: mercado de valores. Tesis dirigidas: ? Maestría. 19 ? Licenciatura. 5 ? En proceso 5 (3 de maestría y 1 de licenciatura). Miembro:- - Mathematical Association of America - American Mathematical Society.",
+      "educacion": [
+        "M. en C. en Ciencias de la Computación"
+      ],
+      "contacto": "jgtc1311@cic.ipn.mx"
+    }
+
+  ]

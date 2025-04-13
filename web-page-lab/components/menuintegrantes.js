@@ -13,7 +13,7 @@ export default function Menu() {
       
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setOpenMenus({}); // Cierra todos los menús al hacer clic fuera
-        console.log("hola");
+        
       }
     }
 
@@ -39,10 +39,10 @@ export default function Menu() {
           <button onClick={() => toggleMenu("profesores")}>Profesores</button>
           {openMenus["profesores"] && (
             <div className="menu-desplegableprofesores">
-              <Link href="#">M. en C. Rocio</Link>
-              <Link href="#">M. en C. Germán Téllez Castillo</Link>
-              <Link href="#">Dr. Juan Carlos Chimal Eguía</Link>
-              <Link href="#">Dr. Carlos Aguilar Ibañez</Link>
+              <Link href="/Integrantes/profesores/rocio">M. en C. Rocio</Link>
+              <Link href="/Integrantes/profesores/german-tellez">M. en C. Germán Téllez Castillo</Link>
+              <Link href="/Integrantes/profesores/juan-carlos">Dr. Juan Carlos Chimal Eguía</Link>
+              <Link href="/Integrantes/profesores/carlos-fernando">Dr. Carlos Aguilar Ibañez</Link>
             </div>
           )}
 

@@ -46,11 +46,9 @@
   
   
 
-
-
   /* Sección 1 */
   .section1 {
-    background: linear-gradient(135deg, #000b49, #2575fc);
+    background: linear-gradient(135deg, #000b49, #107acc);
     color: white;
     text-align: center;
     padding: 100px 0;
