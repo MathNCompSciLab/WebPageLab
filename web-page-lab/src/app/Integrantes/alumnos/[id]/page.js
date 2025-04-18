@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const alumnosData = require('../../../../../public/data/dataAlumnos.json');
+  const alumnosData = require('../../../../../public/data/dataAlumnos.JSON');
   const alumno = alumnosData.find(prof => prof.id === id);
   
 
@@ -30,14 +30,6 @@ export default async function Page({ params }) {
         <p>Contacto: {alumno.contacto}</p>
       </div>
 
-      <div className={Styles.alumnoInfo}>
-        <p>{alumno.biografia}</p>
-        <ul className={Styles.alumnoTitulos}>
-        <li>{alumno.educacion[0]}</li>
-        <li>{alumno.educacion[1]}</li>
-        <li>{alumno.educacion[2]}</li>
-        </ul>
-      </div>
 
       
       

@@ -9,10 +9,10 @@
     color: aliceblue;
     display: flex;
     margin: 0px 110px;
-    background-color: #406e9b;
+    background-color: #3279ff;
     justify-content: space-between;
     height: 400px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     align-items: center;
 }
@@ -28,7 +28,7 @@
 .profesorInfo{
     
     padding: 3%;
-    background-color: #000000;
+    background-color: #0e0e11;
 
 }
 .profesorTitulos

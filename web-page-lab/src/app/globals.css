@@ -1,12 +1,12 @@
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
-  --background-color: #131c46;
+  --background-color: #18181b;
   --text-color: #333;
-  --header-bg: #107acc;
-  --header-text: #ecf0f1;
-  --footer-bg: #34495e;
-  --footer-text: #ecf0f1;
+  --header-bg: #3279ff;
+  --header-text: #eef5ff;
+  --footer-bg: #142157;
+  --footer-text: #eef5ff;
 }
 * {
   margin: 0;
@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient( #142157, #2898ee);
+  background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -87,7 +87,7 @@ body {
 
 .menu-desplegable {
   position: absolute;
-  background-color: #107acc;
+  background-color: #3279ff;
   border: 1px solid #000000;
   width: 200px;
   margin-top: 10px;
@@ -102,7 +102,7 @@ body {
 .menu-desplegable .menu-desplegableprofesores {
   position: absolute;
 
-  background-color: #107acc;
+  background-color: #3279ff;
   border: 1px solid #000;
   width: 300px;
   margin-top: 50px;

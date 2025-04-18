@@ -54,31 +54,31 @@ export default function Menu() {
               </button>
               {openMenus["licenciatura"] && (
                 <div className="menu-desplegable">
-                  <Link href="#">Ismael</Link>
+                  <Link href="/Integrantes/alumnos/licenciatura-1">Ismael</Link>
                 </div>
               )}
 
               <button onClick={() => toggleMenu("maestria")}>Maestría</button>
               {openMenus["maestria"] && (
                 <div className="menu-desplegable">
-                  <Link href="#">Dafne Coconi</Link>
-                  <Link href="#">Aldair Cortés</Link>
-                  <Link href="#">Alan Jiménez</Link>
-                  <Link href="#">Sergio Pérez</Link>
-                  <Link href="#">Alejandro Ruiz</Link>
-                  <Link href="#">Luis Rojo</Link>
-                  <Link href="#">Luis Farias</Link>
-                  <Link href="#">Angel Saria</Link>
+                  <Link href="/Integrantes/alumnos/maestria-1">Dafne Coconi</Link>
+                  <Link href="/Integrantes/alumnos/maestria-2">Aldair Cortés</Link>
+                  <Link href="/Integrantes/alumnos/maestria-3">Alan Jiménez</Link>
+                  <Link href="/Integrantes/alumnos/maestria-4">Sergio Pérez</Link>
+                  <Link href="/Integrantes/alumnos/maestria-5">Alejandro Ruiz</Link>
+                  <Link href="/Integrantes/alumnos/maestria-6">Luis Rojo</Link>
+                  <Link href="/Integrantes/alumnos/maestria-7">Luis Farias</Link>
+                  <Link href="/Integrantes/alumnos/maestria-8">Angel Saria</Link>
                 </div>
               )}
 
               <button onClick={() => toggleMenu("doctorado")}>Doctorado</button>
               {openMenus["doctorado"] && (
                 <div className="menu-desplegable">
-                  <Link href="#">Ivan</Link>
-                  <Link href="#">Alejandro Cardora</Link>
-                  <Link href="#">Diana Barragán</Link>
-                  <Link href="#">Irari Jimenez</Link>
+                  <Link href="/Integrantes/alumnos/doctorado-1">Ivan</Link>
+                  <Link href="/Integrantes/alumnos/doctorado-2">Alejandro Cardora</Link>
+                  <Link href="/Integrantes/alumnos/doctorado-3">Diana Barragán</Link>
+                  <Link href="/Integrantes/alumnos/doctorado-4">Irari Jimenez</Link>
                 </div>
               )}
             </div>
