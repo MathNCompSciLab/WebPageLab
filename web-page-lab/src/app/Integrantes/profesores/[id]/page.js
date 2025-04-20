@@ -14,7 +14,26 @@ export default async function Page({ params }) {
 
   return (
     <div className={Styles.profesorbody}>
+
     <div className={Styles.profesorContainer}>
+        <div className={Styles.profesorInfo}>
+
+        <h1 className={Styles.profesorNombre}>HI, I'm {profesor.nombre}</h1>
+        <p>{profesor.cargo}</p>
+        <p>Contacto: {profesor.contacto}</p>
+
+        <p>{profesor.biografia}</p>
+        <ul className={Styles.profesorTitulos}>
+        <li>{profesor.educacion[0]}</li>
+        <li>{profesor.educacion[1]}</li>
+        <li>{profesor.educacion[2]}</li>
+        </ul>
+        </div>
+
+      
+
+
+      
       <Image 
       src={profesor.imagen} 
       alt={profesor.nombre} 
@@ -23,21 +42,6 @@ export default async function Page({ params }) {
       className={Styles.profesorImagen}
       priority 
       />
-
-      <div className={Styles.profesorNombreContainer}>
-        <h1 className={Styles.profesorNombre}>{profesor.nombre}</h1>
-        <p>{profesor.cargo}</p>
-        <p>Contacto: {profesor.contacto}</p>
-      </div>
-
-      <div className={Styles.profesorInfo}>
-        <p>{profesor.biografia}</p>
-        <ul className={Styles.profesorTitulos}>
-        <li>{profesor.educacion[0]}</li>
-        <li>{profesor.educacion[1]}</li>
-        <li>{profesor.educacion[2]}</li>
-        </ul>
-      </div>
 
       
       

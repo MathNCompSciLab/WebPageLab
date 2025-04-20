@@ -3,7 +3,7 @@
   --secondary-color: #2ecc71;
   --background-color: #18181b;
   --text-color: #333;
-  --header-bg: #3279ff;
+  --header-bg: #000b49;
   --header-text: #eef5ff;
   --footer-bg: #142157;
   --footer-text: #eef5ff;
@@ -25,15 +25,23 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
   
 
 }
-
+.logo{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 7%;
+  border-radius: 15px 0 15px 0 ;
+}
 .header {
   background-color: var(--header-bg);
   color: var(--header-text);
   padding: 20px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
 }
 
 .header h1 {
@@ -44,12 +52,14 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   margin-top: 10px;
+  margin-left: 90px;
 }
 
 .nav-links li {
   display: inline;
+  
 }
 
 .nav-links a {
@@ -81,14 +91,16 @@ body {
 
 .nav-links button:hover {
   color: var(--secondary-color);
-  
   background-color: rgba(255, 255, 255, 0.2);
 }
 
 .menu-desplegable {
+  
   position: absolute;
   background-color: #3279ff;
-  border: 1px solid #000000;
+  border-right: 1px solid #d9e9ff;
+  border-bottom: 1px solid #d9e9ff;
+
   width: 200px;
   margin-top: 10px;
   margin-left: 10px;
@@ -97,13 +109,14 @@ body {
   padding: 10px;
   align-items: flex-start;
   z-index: 1000;
+
 }
 
 .menu-desplegable .menu-desplegableprofesores {
   position: absolute;
-
   background-color: #3279ff;
-  border: 1px solid #000;
+  border-right: 1px solid #d9e9ff;
+  border-bottom: 1px solid #d9e9ff;
   width: 300px;
   margin-top: 50px;
   display: flex;

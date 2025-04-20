@@ -52,32 +52,38 @@
     color: white;
     text-align: center;
     padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap : 20px;
   }
   
   .section1 h1 {
     font-size: 3rem;
     margin-bottom: 20px;
   }
+  .section1 .textoContainer {
+    background-color: #0e0e11;
+    margin: 0 30px;
+    padding: 40px;
+    border-radius: 20px;
+    
+
+  }
   
   .section1 p {
-    font-size: 1.2rem;
+    font-size: 16px;
     margin-bottom: 30px;
+    padding: 30px;
+    
   }
-  
-  .ctaButton {
-    background-color: #ff6f61;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .ctaButton:hover {
-    background-color: #ff3b2f;
-    transform: translateY(-5px);
+  .section1 .customlabImagen{
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin: 0 30px;
+    border: #d9e9ff 2px solid;
+    
+
   }
   
   
@@ -98,13 +104,16 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
   }
-  
+  .btncard{
+    text-decoration: none;
+  }
   .card {
     background-color: #d9e9ff;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
   }
   
   .card:hover {
@@ -123,41 +132,67 @@
     color: #555;
   }
   
-  /* Sección 4 */
-  .section4 {
+  /* Sección 3 */
+  .section3 {
     background: linear-gradient(135deg, #589eff, #000b49);
     color: white;
+    height: 80vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap : 50px;
+  }
+  .section3 .textoContainer {
+    
+    border-top: 1px solid #d9e9ff;
+    padding-top: 30px;
+    margin: 0 10px;
+  }
+  .section3 .customlabImagen{
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  .section3 li{
+    text-align: left;
+    margin: 5px;
+    margin-left: 80px;
+  }
+  .section3 h2 {
+    font-size: 1.5rem;
+    
   }
   
+  /* Sección 4 */
+  .section4{
+    background-color: #0e0e11;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+  }
+  .section4 li{
+    text-align: left;
+    margin: 5px;
+    margin-left: 80px;
+  }
   .section4 h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
   }
+
   
-  .form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  /* Sección 5 */
+  .section5 {
+    background: linear-gradient(135deg, #000b49, #589eff);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    height: 80vh;
   }
-  
-  .form input,
-  .form textarea {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 1rem;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-  }
-  
-  .form textarea {
-    resize: vertical;
-  }
-  
-  .form button {
+
+  .button {
     background-color: #3279ff;
     color: white;
     padding: 15px 30px;
@@ -168,8 +203,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
-  
-  .form button:hover {
+  .button:hover {
     background-color: #1b57f5;
     transform: translateY(-5px);
   }
