@@ -48,8 +48,9 @@
 
   /* Sección 1 */
   .section1 {
-    background: linear-gradient(135deg, #000b49, #589eff);
+    background: linear-gradient(135deg, #000b49 10%, #589eff);
     color: white;
+    height: 90vh;
     text-align: center;
     padding: 100px 0;
     display: flex;
@@ -66,6 +67,7 @@
     margin: 0 30px;
     padding: 40px;
     border-radius: 20px;
+    color: #d9e9ff;
     
 
   }
@@ -81,7 +83,7 @@
     width: auto;
     height: auto;
     margin: 0 30px;
-    border: #d9e9ff 2px solid;
+    box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.5);
     
 
   }
@@ -136,7 +138,7 @@
   .section3 {
     background: linear-gradient(135deg, #589eff, #000b49);
     color: white;
-    height: 80vh;
+    height: 90vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -167,10 +169,11 @@
   
   /* Sección 4 */
   .section4{
+    height: 80vh;
     background-color: #0e0e11;
     text-align: center;
     padding: 50px 0;
-    color: white;
+    color: #d9e9ff;
   }
   .section4 li{
     text-align: left;
@@ -179,31 +182,35 @@
   }
   .section4 h2 {
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 110px;
+    color: #d9e9ff;
+  }
+  .section4 .textoContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
   }
 
   
   /* Sección 5 */
   .section5 {
-    background: linear-gradient(135deg, #000b49, #589eff);
+    background: linear-gradient(160deg, #000b49, #589eff);
     color: white;
     text-align: center;
     padding: 50px 0;
-    height: 80vh;
+    
+  }
+  .section5 .customlabImagen{
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+    box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.5);
+    filter: brightness(0.8);
+  }
+  .section5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px
   }
 
-  .button {
-    background-color: #3279ff;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  .button:hover {
-    background-color: #1b57f5;
-    transform: translateY(-5px);
-  }

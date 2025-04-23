@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "titulo": "Análisis Matemático de Técnicas de Despliegue Eficiente de Redes Emergentes Robustas a Ciberataques",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2023-01-01 12:00:00",
+        "fechaFin": "2024-12-31 12:00:00",
+        "descripcion": "El objetivo principal de este proyecto es proponer, diseñar y estudiardiversas técnicas de despliegue de las redes de comunicaciones inalámbricasmodernas (como redes celulares, redes de sensores, redes P2P, entre otras) de forma eficiente desde el punto de vista energético y de operación y quetambién sean resistentes a diferentes tipos de ciber ataques. Objetivos específicos Estudiar diversas técnicas de despliegue de los nodos en redes de sensoresusandofractales y autómatas celulares; Desarrollar un modelo matemático pararedes de sensores bajo diversos tipos de ataques; Generar modelos analíticosde redes P2P bajo diferentes tipos de ataques; Proponer técnicas dedespliegue de nodos en red P2P usando luz; Modelar técnicas de desplieguetemporal con drones.",
+        "participantes": [
+            {
+                "nombre": "Rivero Ángeles Mario Eduardo",
+                "rol": "Responsable técnico"
+            },
+            {
+                "nombre": "Chimal Eguía Juan Carlos",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Aguirre Anaya Eleazar",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Fernández Cid Hugo Ivan",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Maya Rojina Carlos Sebastián",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Ramos Perez Luis Israel",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Rodríguez Gómez Ariadna Isabel",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Rosas Espinosa Edgar Hernan",
+                "rol": "Colaborador"
+            }
+
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Análisis del comportamiento dinámico de diferentes sistemas naturales: 1:- Biología matemática aplicada al SARS-COV-2 2.-Termodinámica de Tiempos Finitos aplicado a máquinas térmicas biológicas 3.- Análisis estocástico de una red de sensores para propósitos biológicos 4.- Uso de sistemas",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2023-01-01 12:00:00",
+        "fechaFin": "2023-12-31 12:00:00",
+        "descripcion": "1.2 Objetivos específicos Obtener, analizar (matemáticamente) y simular (obtener datos) de 4 modelos que se relacionan a fenómenos de biológicos, físicos y de ingeniería 1.3 Objetivos específicos 1.- Analizar modelos de Biología matemática aplicada al SARS-COV-2 2.- Estudiar mediante la Termodinámica de Tiempos Finitos máquinas térmicas. 3.-Análizar de forma estocástica una red de sensores. 4.-Analizar sistemas criptográficos usando sistemas complejos.",
+        "participantes": [
+            {
+                "nombre": "Chimal Eguía Juan Carlos",
+                "rol": "Responsable técnico"
+            },
+            {
+                "nombre": "Corona Bermúdez Erendira",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Rivero Ángeles Mario Eduardor",
+                "rol": "Colaborador"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Descripción del comportamiento de 4 sistemas de las ciencias naturales usando análisis matemático: 1.- análisis de la quimiotaxis en el sars-cov-2 y en cancer de mama 2.- termodinámica irreversible lineal aplicada a máquinas térmicas 3.- análisis criptográfico de imágenes con compresión jp",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2024-01-01 12:00:00",
+        "fechaFin": "2024-12-31 12:00:00",
+        "descripcion": "",
+        "participantes": [
+            {
+                "nombre": "Chimal Eguía Juan Carlos",
+                "rol": "Responsable técnico"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Diseño de controladores adaptables para sistemas lineales inciertos.",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2020-01-01 12:00:00",
+        "fechaFin": "2020-12-31 12:00:00",
+        "descripcion": "Diseñar un control adaptable para sistemas lineales inciertos de segundo orden, que resuelva los problemas de regulación y seguimiento de trayectorias.",
+        "participantes": [
+            {
+                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "rol": "Responsable técnico"
+            },
+            {
+                "nombre": "Castañon Mendez Rodrigo",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre":"González Escalona José Uriel",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Ochoa Montiel María del Rocío",
+                "rol": "Colaborador"
+            },
+            {
+                "nombre": "Olvera García Miguel Ángel",
+                "rol": "Colaborador"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Diseño de observadores robustos de velocidad y carga para motores de corriente directa sujetos a perturbaciones constantes",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2022-01-01 12:00:00",
+        "fechaFin": "2022-12-31 12:00:00",
+        "descripcion": "Diseñar de un observador no lineal para un motor de corriente directa con salida afectada por el ruido, donde estas perturbaciones están acotadas.",
+        "participantes": [
+            {
+                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "rol": "Responsable técnico"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Diseño de un controlador para un levitador magnético basado en saturaciones anidadas y un observador tipo super twisting",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2023-01-01 12:00:00",
+        "fechaFin": "2023-12-31 12:00:00",
+        "descripcion": "Proponer un esquema de control basado en saturaciones anidadas y un observador del tipo super tweesting para resolver el problema de seguimiento de trayectorias para un levitador magnético. Encontrar la forma de expresar el modelo dinámico del levitador magnético en su forma conocida como variable de estado, en el que se considera la incertidumbre dinámica y las perturbaciones externas. Diseñar un observador del tipo super twisting para estimar la velocidad desconocida de la esfera que levita debido al campo magnético que produce un selenoide.",
+        "participantes": [
+            {
+                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "rol": "Responsable técnico"
+            },
+            {
+                "nombre": "Barrón Fernández Ricardo",
+                "rol": "Colaborador"
+            }
+
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Diseño de un controlador robusto para resolver el problema de seguimiento de trayectoria de una esfera en un sistema de levitación magnética basado en el enfoque de modos deslizantes",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2024-01-01 12:00:00",
+        "fechaFin": "2024-12-31 12:00:00",
+        "descripcion": "",
+        "participantes": [
+            {
+                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "rol": "Responsable técnico"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "Esquema de control para planificación de trayectorias de barcos o vehículos anfibios para resolver el problema de persecución-evasión",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2021-01-03 12:00:00",
+        "fechaFin": "2021-12-15 12:00:00",
+        "descripcion": "Proponer un esquema de control que resuelva el problema de seguimientos de trayectorias para barcos y vehículos anfibios, con aplicación al problema de persecución-evasión.",
+        "participantes":[
+            {
+                "nombre":"Aguilar Ibáñez Carlos Fernando",
+                "rol":"Responsable técnico"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Modelación y Simulación Computacional de la fisicoquímica en acuacultura",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2021-01-01 12:00:00",
+        "fechaFin": "2021-12-31 12:00:00",
+        "descripcion": "Basados en modelos matemáticos continuos se desarrollará de un programa computacional amigable al usuario que permita optimizar el rendimiento productivo, económico y ambiental en la producción de camarón.",
+        "participantes":[
+            {
+                "nombre":"Chimal Eguía Juan Carlos",
+                "rol":"Responsable técnico"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Modelos matemáticos y aprendizaje automático",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2023-01-01 12:00:00",
+        "fechaFin": "2024-12-31 12:00:00",
+        "descripcion": "Resolver problemas de ciencia e ingeniería con modelos matemáticos y computacionales mediante técnicas de aprendizaje automático Proponer modelos matemáticos y computacionales para resolver problemas usando aprendizaje automático.",
+        "participantes":[
+            {
+                "nombre":"Aguilar Ibáñez Carlos Fernando",
+                "rol":"Responsable técnico"
+            },
+            {
+                "nombre":"Barrón Fernández Ricardo",
+                "rol":"Colaborador"
+            },
+            {
+                "nombre":"Ponce Ponce Victor Hugo",
+                "rol":"Colaborador"
+            },
+            {
+                "nombre":"Molina Lozano Herón",
+                "rol":"Colaborador"
+            },
+            {
+                "nombre":"Carreón Torres Angel Antonio",
+                "rol":"Colaborador"
+            },
+            {
+                "nombre":"Montiel Saldaña José Ricardo",
+                "rol":"Colaborador"
+            }
+        ]
+    }
+
+
+
+        
+
+
+
+
+
+
+
+
+]

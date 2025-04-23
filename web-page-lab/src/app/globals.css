@@ -1,6 +1,6 @@
 :root {
   --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+  --secondary-color: #3279ff;
   --background-color: #18181b;
   --text-color: #333;
   --header-bg: #000b49;
@@ -52,9 +52,10 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
-  margin-top: 10px;
-  margin-left: 90px;
+  gap: 5px;
+  margin-top: 5px;
+  margin-left: 70px;
+  
 }
 
 .nav-links li {
@@ -65,7 +66,7 @@ body {
 .nav-links a {
   color: white;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 25px;
   display: block;
   width: 100%;
   transition: background-color 0.3s ease;

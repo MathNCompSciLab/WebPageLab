@@ -10,22 +10,19 @@
     display: flex;
     margin: 0px 110px;    
     background-color: #0e0e11;
-    border-left: 20px solid #3279ff;
-    border-top: 3px solid #3279ff;
-;
+    border-left: 25px solid #0020b0;
+
 
     justify-content: space-between;
     height: 600px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
+    border-radius: 15px;
     align-items: center;
 }
 .profesorImagen{
     width: 450px;
     height: 450px;
     margin: 0px 20px;
-    border-right: 3px solid #3279ff;
-    border-bottom: 3px solid #3279ff;
 }
 .profesorNombreContainer{
     text-align: center;

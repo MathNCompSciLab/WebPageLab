@@ -1,0 +1,107 @@
+.containerproyectos{
+    height: 100%;
+}
+
+.proyecto{
+    color: #d9e9ff;
+}
+.tituloproyectos{
+    color: #f0f7ff;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+.boton {
+    background-color: #3279ff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .boton:hover {
+    background-color: #1b57f5;
+    transform: translateY(-5px);
+  }
+  
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, lh);
+    
+    align-items: start;
+    margin-right: 10em;
+
+}
+.div1 {
+    
+    padding-top: 50px;
+    justify-self: end;
+    margin-right: 15px;
+    height: 100%;
+}
+    
+
+.div2 {
+    grid-column: span 4 / span 4;
+    font-size: 22px;
+    height: 100%;
+    border-bottom: 1px solid #1b57f5;
+    padding-top: 50px;
+    align-self: center;
+}
+
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-bottom: 1px solid #1b57f5;
+    margin-bottom: 30px;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.div4 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    
+    padding: 5px 10px;
+}
+
+.div5 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    height: 100%;
+    
+    padding: 5px 10px;
+}
+
+.div6 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    
+    padding: 5px 10px;
+}
+
+.div7 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+    height: 100%;
+    
+    padding: 5px 10px;
+}
+
+.div8 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    height: 100%;
+    border-bottom: 1px solid #1b57f5;
+    
+    padding: 0px 10px;
+}

@@ -46,7 +46,7 @@ export default function Home() {
           src="/Laboratorio/3.jpg" 
           alt="Promoción 3" 
           width={820}
-          height={546}
+          height={600}
           className={styles.customlabImagen}
           priority 
           />
@@ -138,10 +138,10 @@ export default function Home() {
             priority 
             />
       </section>
-      {/* Sección 5 */}
+      {/* Sección 4 */}
       <section className={styles.section4} id="objetivos">
+      <h2>Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
           <div className={styles.textoContainer}>
-            <h2>Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
             <ul>
               <li>Realizar investigación básica y aplicada en las áreas de matemáticas puras y aplicadas, computación científica, ciencia de datos y machine learning.</li>
               <li>Desarrollar proyectos de investigación en colaboración con otras instituciones académicas y de investigación.</li>
@@ -154,12 +154,29 @@ export default function Home() {
               <li>Colaborar con la industria y el sector privado para aplicar los resultados de la investigación en problemas reales.</li>
               <li>Realizar actividades de transferencia de tecnología y conocimiento a la sociedad.</li>
             </ul>
+            <Image 
+            src="/Laboratorio/CMyC.jpg" 
+            alt="Promoción 3" 
+            width={300}
+            height={300}
+            className={styles.customlabImagen}
+            priority 
+            />
             </div>
             </section>
-      {/* Sección 6 */}
+      {/* Sección 5 */}
       <section className={styles.section5} id="historia">
+          <h2>Historia</h2>
+          <Image 
+          src="/Laboratorio/19.jpg" 
+          alt="Promoción 3" 
+          width={1040}
+          height={600}
+          className={styles.customlabImagen}
+          priority 
+          />
           <div className={styles.textoContainer}>
-            <h2>Historia</h2>
+            
             <p>El laboratorio de Ciencias Matemáticas y Computacionales fue fundado en el año 2000 con el objetivo de realizar investigación básica y aplicada en las áreas de matemáticas puras y aplicadas, computación científica, ciencia de datos y machine learning. Desde su fundación, el laboratorio ha llevado a cabo numerosos proyectos de investigación en
                colaboración con otras instituciones académicas y de investigación, tanto a nivel nacional como internacional.</p>
             <p>El laboratorio cuenta con un equipo de investigadores altamente capacitados y con amplia experiencia en sus respectivas áreas de especialización. Además, el laboratorio ofrece programas de formación de recursos humanos a nivel de maestría y doctorado, así como actividades de divulgación científica y tecnológica.</p>

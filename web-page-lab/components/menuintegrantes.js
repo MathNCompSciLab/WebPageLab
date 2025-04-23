@@ -10,7 +10,6 @@ export default function Menu() {
   useEffect(() => {
     function handleClickOutside(event) {
       
-      
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setOpenMenus({}); // Cierra todos los menús al hacer clic fuera
         
@@ -24,10 +23,14 @@ export default function Menu() {
   }, []);
 
   const toggleMenu = (menu) => {
-    setOpenMenus((prevMenus) => ({
-      ...prevMenus,
-      [menu]: !prevMenus[menu], // Alterna el estado del menú seleccionado
-    }));
+    setOpenMenus((prevMenus) => {
+      console.log(prevMenus);
+      return {
+        ...prevMenus,
+        [menu]: !prevMenus[menu], 
+      }
+    });
+
   };
 
   return (
