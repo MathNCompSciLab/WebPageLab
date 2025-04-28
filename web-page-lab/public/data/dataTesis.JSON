@@ -1,0 +1,660 @@
+[
+    {
+        "id": 1,
+        "titulo": "Estudio de neoplasias malignas utilizando dinámica no lineal",
+        "alumno": "Castillo Montiel Erandi",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 2,
+        "titulo": "Simulación de sistemas naturales usando autómatas celulares",
+        "alumno": "Huerta Trujillo Iliac",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 3,
+        "titulo": "Algunas aplicaciones de la técnica basada en imágenes para series de tiempo",
+        "alumno": "Alonso Castro José Adriel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 4,
+        "titulo": "Modelado de reproducción e invasión de neoplasias malignas usando autómatas celulares",
+        "alumno": "Flores Cortés Sergio Ventura",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 5,
+        "titulo": "Modelación y simulación matemática del crecimiento de gliomas",
+        "alumno": "Sánchez Rodríguez Omar",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Barrón Fernández Ricardo","Guzmán Arenas Adolfo","Figueroa Nazuno Jesús Guillermo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 6,
+        "titulo": "Realidad aumentada para el control de robots móviles",
+        "alumno": "Navarrete Manzanilla Niels Henrik",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Díaz de León Santiago Juan Luis","Juan Carlos Chimal Eguía","Argüelles Cruz Amadeo José","Torres Ruiz Miguel Jesús"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 7,
+        "titulo": "Estudio de onda viajera del movimiento mesenquimal NOSE",
+        "alumno": "Rangel Reyes Julio César",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Barrón Fernández Ricardo","Gelbukh Alexander","Suárez Guerra Sergio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 8,
+        "titulo": "Implementación de algoritmos criptográficos sobre un GPU en grandes cantidades de información",
+        "alumno": "Ruiz Ibáñez Víctor Antonio",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Díaz de León Santiago Juan Luis","Juan Carlos Chimal Eguía","Argüelles Cruz Amadeo José","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 9,
+        "titulo": "Ensamble y diseño de algoritmos para la clasificación no supervisada y de forma libre de series de tiempo",
+        "alumno": "Santos Camacho Evelia Araceli",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Figueroa Nazuno Jesús Guillermo","Juan Carlos Chimal Eguía","Suárez Guerra Sergio","Martínez Luna Gilberto Lorenzo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 10,
+        "titulo": "Autómatas celulares y ecuaciones diferenciales como técnicas convergentes para la simulación de sistemas físicos.",
+        "alumno": "Huerta Trujillo Iliac",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Moreno Ibarra Marco Antonio","Carlos Fernando Aguilar Ibáñez","Sánchez Salas Norma"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 11,
+        "titulo": "Motor de realidad aumentada en tiempo real",
+        "alumno": "Berthet Dorantes Luis Enrique",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Díaz de León Santiago Juan Luis","Juan Carlos Chimal Eguía","Guzmán Lugo José Giovanni","Godoy Calderón Salvador"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 12,
+        "titulo": "Reconocimiento automático de patrones temporales",
+        "alumno": "Simón Cruz Juan Ángel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Figueroa Nazuno Jesús Guillermo","Juan Carlos Chimal Eguía","Suárez Guerra Sergio","Torres Ruiz Miguel Jesús"],
+        "estado": "Graduado"
+    }, 
+    {
+        "id": 13,
+        "titulo": "Estudio de la dinámica de células cancerosas utilizando oncología matemática",
+        "alumno": "Castillo Montiel Erandi",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Barrón Fernández Ricardo","Suárez Guerra Sergio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 14,
+        "titulo": "Un paradigma proactivo orientado a objetos",
+        "alumno": "Sarmiento Tovilla Juan Carlos",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 15,
+        "titulo": "Modelación y simulación de movimiento celular en actividad neuronal usando autómatas celulares",
+        "alumno": "Herrera Magaña Jorge Alberto",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Carlos Fernando Aguilar Ibáñez","Barrón Fernández Ricardo","Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 16,
+        "titulo": "An Evolutionary Strategy Supported by Domain Knowledge for Aircraft Automatic Conceptual Design",
+        "alumno": "Pérez Romero Jesús",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Godoy Calderón Salvador","Juan Carlos Chimal Eguía","Barrón Fernández Ricardo","Figueroa Nazuno Jesús Guillermo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 17,
+        "titulo": "Técnica de aprendizaje de series de tiempo estacionarias a partir de la información de su imagen",
+        "alumno": "Ramírez Amaro Karinne",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 18,
+        "titulo": "Modelación computacional de terapias de cáncer",
+        "alumno": "Rangel Reyes Julio César",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Carlos Fernando Aguilar Ibáñez","Moreno Ibarra Marco Antonio","Menchaca Méndez Ricardo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 19,
+        "titulo": "Impacto de la distribución de la conectividad de nodos en una red de sensores",
+        "alumno": "García González Emmanuel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Germán Téllez Castillo","Menchaca Méndez Rolando"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 20,
+        "titulo": "Simulación de sistemas complejos usando autómatas celulares y supercómputo",
+        "alumno": "Jiménez Sandoval Franck Jhonatan",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Suárez Guerra Sergio","Carlos Fernando Aguilar Ibáñez","Batyrshin Ildar"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 21,
+        "titulo": "Estudio del desempeño de sistemas de comunicaciones en semáforos en ciudades inteligentes mediante Li-Fi",
+        "alumno": "Hernández Oregón Gerardo",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Menchaca Méndez Ricardo","Menchaca Méndez Rolando"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 22,
+        "titulo": "Análisis de la fragmentación mitocondrial en imágenes de microscopio para la evaluación del cáncer de mama",
+        "alumno": "Vázquez Vázquez Francisco Javier",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Menchaca Méndez Ricardo","Juan Carlos Chimal Eguía","Germán Téllez Castillo","Medel Juárez José de Jesús"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 23,
+        "titulo": "Modelación y simulación de inmunoterapias para el tratamiento de la leucemia",
+        "alumno": "León Santiago Jareth",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Moreno Ibarra Marco Antonio","Germán Téllez Castillo","Cruz Cortés Nareli"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 24,
+        "titulo": "Implementación y análisis de autómatas celulares cuánticos",
+        "alumno": "Fernández Cid Hugo Ivan",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Germán Téllez Castillo","Sun Guohua","Salinas Rosales Moisés"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 25,
+        "titulo": "Criptografía con autómatas celulares y protocolo de cero conocimiento",
+        "alumno": "Corona Bermúdez Erendira",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Juan Carlos Chimal Eguía","Germán Téllez Castillo","Rubio Espino Elsa","Sánchez Fernández Luis Pastor","Salinas Rosales Moisés","Rivero Ángeles Mario Eduardo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 26,
+        "titulo": "Clasificación de los grados de retinopatía diabética en imágenes del fondo del ojo mediante algoritmos de aprendizaje profundo",
+        "alumno": "García Torres Jorge Diego",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Germán Téllez Castillo","Martínez Luna Gilberto Lorenzo","Suárez Guerra Sergio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 27,
+        "titulo": "Simulación computacional de nanosistemas para detección de la proteína hemaglutinina",
+        "alumno": "Salazar Cano Juan Alfredo",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Germán Téllez Castillo","Rivero Ángeles Mario Eduardo","Rodríguez Hernández Juan Ignacio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 28,
+        "titulo": "Estudio de desempeño y funcionamiento de redes LiFi en arquitecturas descentralizadas",
+        "alumno": "Hernández Oregón Gerardo",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Menchaca Méndez Ricardo","Sun Guohua"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 29,
+        "titulo": "Modelado de movimiento colectivo en enjambres usando aprendizaje por refuerzo",
+        "alumno": "Jiménez Limas Marco Antonio",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Escamilla Ambrosio Ponciano Jorge","Rubio Espino Elsa","Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 30,
+        "titulo": "Simulación numérica de la propagación espacio-temporal del SARS-CoV-2 utilizando un modelo SEIR-SIR",
+        "alumno": "Sánchez Calvo González Iñaki",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","López Sánchez Erick Javier","Germán Téllez Castillo","Rivero Ángeles Mario Eduardo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 31,
+        "titulo": "Diseño criptográfico de S-boxes generadas con el atractor de Rössier: Un enfoque dinámico",
+        "alumno": "Corona Bermúdez Erendira",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Sánchez Fernández Luis Pastor","Salinas Rosales Moisés"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 32,
+        "titulo": "Diseño de péptidos antimicrobianos implementando redes neuronales adversariales",
+        "alumno": "Ramirez Escamilla Marco Antonio",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Juan Carlos Chimal Eguía","Sossa Azuela Juan Humberto","Barrón Fernández Ricardo","Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 33,
+        "titulo": "Cifrado de imágenes compatible con el algoritmo de compresión del JPEG",
+        "alumno": "Cardona López Manuel Alejandro",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Silva García Victor Manuel","Rivero Ángeles Mario Eduardo","Montiel Pérez Jesús Yaljá"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 34,
+        "titulo": "Implementación de técnicas de predicción en autómatas celulares para el análisis del mercado de valores",
+        "alumno": "Pérez Montes Sergio",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 35,
+        "titulo": "Optimización dinámica de tránsito vehicular basada en simulación con cómputo paralelo",
+        "alumno": "Ruiz Gómez Ruben Alejandro",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Salinas Rosales Moisés","Juan Carlos Chimal Eguía","Germán Téllez Castillo","Ponce Ponce Victor Hugo"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 36,
+        "titulo": "Interpretabilidad, precisión, desempeño y limitaciones de las Redes de Kolmogorov-Arnold",
+        "alumno": "Cortés López Jorge Aldair",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Juan Carlos Chimal Eguía","Menchaca Méndez Ricardo","Germán Téllez Castillo","Zamora Gómez Erik"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 37,
+        "titulo": "Estudio de lesiones mamarias ex vivo por métodos dinámicos de las señales fotoacústicas",
+        "alumno": "Jiménez Parra Erick Alan",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Juan Carlos Chimal Eguía","Báez Medina Héctor","Carbajal Hernández José Juan","Quispe Siccha Rosa María"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 38,
+        "titulo": "Teoría del caos y sistemas dinámicos para la generación de llaves aleatorias utilizadas en criptografía.",
+        "alumno": "Farias Quiroz Luis Enrique",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Gallegos García Gina","Juan Carlos Chimal Eguía","Ramírez Torres Marco Tulio","Salinas Rosales Moisés"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 39,
+        "titulo": "Modelo matemático y simulación de difusión de células en tejidos biológicos",
+        "alumno": "Rojo Chavez Luis Angel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Juan Carlos Chimal Eguía","Alarcón Paredes Antonio","Germán Téllez Castillo","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 40,
+        "titulo": "Reconstrucción de parámetros y variables de estado para una clase de sistemas caóticos con aplicación en codificación y decodificación de información",
+        "alumno": "Suárez Castañón Miguel Santiago",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 41,
+        "titulo": "Diseño de leyes de control de un péndulo invertido montado sobre un carro",
+        "alumno": "Gutiérrez Frías Oscar Octavio",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 42,
+        "titulo": "Sistema multicanal para espectrometría nuclear",
+        "alumno": "González Martínez Yovany",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 43,
+        "titulo": "Simulación del control de una pinza óptica para la manipulación de micropartículas",
+        "alumno": "Rosas Soriano Luis Ignacio",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 44,
+        "titulo": "Diseño de controladores para sistemas subactuados tipo péndulo invertido",
+        "alumno": "Gutiérrez Frías Oscar Octavio",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 45,
+        "titulo": "Control óptimo aplicado a brazos robóticos.",
+        "alumno": "Torres Martínez César",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Sossa Azuela Juan Humberto","Moreno Armendáriz Marco Antonio","Carlos Fernando Aguilar Ibáñez","Rubio Ávila José de Jesús"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 46,
+        "titulo": "Desarrollo de un sistema embebido para el control en tiempo real de un convertidor elevador alimentado por una celda de combustible",
+        "alumno": "Díaz Bernabé José Luis",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 47,
+        "titulo": "Control en tiempo real de convertidores electrónicos",
+        "alumno": "Castro Morales Christian",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 48,
+        "titulo": "Diseño de controladores robustos para sistemas electromecánicos",
+        "alumno": "Mendoza Mendoza Julio Alberto",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Sossa Azuela Juan Humberto","Juan Carlos Chimal Eguía","Dávila Montoya Jorge Angel"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 49,
+        "titulo": "Aplicación de redes neuronales para la identificación de objetos en tiempo real en imágenes tomadas por un quadrotor",
+        "alumno": "Hernández Hernández Gerardo",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Sossa Azuela Juan Humberto","Molina Lozano Herón","Guzmán Arenas Adolfo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 50,
+        "titulo": "Control de robots humanoides para el pase de pelota a través del análisis de imágenes",
+        "alumno": "Román Godínez Rodrigo Francisco",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Sossa Azuela Juan Humberto","Barrón Fernández Ricardo","Rubio Espino Elsa"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 51,
+        "titulo": "Control de un robot humanoide para el lanzamiento de un objeto esférico mediante análisis digital de imágenes",
+        "alumno": "Morales Botello Leonel",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Sossa Azuela Juan Humberto","Molina Lozano Herón","Ponce Ponce Victor Hugo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 52,
+        "titulo": "Diseño de algoritmos paralelos para optimización de procesos de álgebra lineal de matrices dispersas",
+        "alumno": "Rivera Zamarripa Luis Alberto",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Cruz Cortés Nareli","Suárez Guerra Sergio","Calvo Castro Francisco Hiram","Ponce Ponce Victor Hugo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 53,
+        "titulo": "Classification of ECG Signals Using a Multimodal Model",
+        "alumno": "Martínez Clavería Karen Olivia",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Ponce Ponce Victor Hugo","Carlos Fernando Aguilar Ibáñez","Montiel Pérez Jesús Yaljá","Molina Lozano Herón"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 54,
+        "titulo": "Improving Statical Learning Methods via Features Selection without Replacement Sampling and Random Projection",
+        "alumno": "Khan Sulaiman",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Valdez Rodriguez José Eduardo","Calvo Castro Francisco Hiram","Suárez Castañón Miguel Santiago"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 55,
+        "titulo": "Análisis de imágenes citológicas para la detección de células anormales utilizando aprendizaje profundo",
+        "alumno": "Jiménez López Irari",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Valdez Rodriguez José Eduardo","Calvo Castro Francisco Hiram","Moreno Armendáriz Marco Antonio"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 56,
+        "titulo": "Estructuras entrelazadas de control adaptativo y observadores. Aplicación a sistemas mecánicos y robótica.",
+        "alumno": "Barragán Vázquez Diana Patricia",
+        "programa": "Doctorado en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Juan Carlos Chimal Eguía","Carbajal Hernández José Juan","Suárez Castañón Miguel Santiago"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 57,
+        "titulo": "Control de sistemas dinámicos utilizando aprendizaje por reforzamiento y control adaptable",
+        "alumno": "Soria Muñoz Angel Javier",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Barrón Fernández Ricardo","Carlos Fernando Aguilar Ibáñez","Montiel Pérez Jesús Yaljá","Ponce Ponce Victor Hugo","Menchaca Méndez Ricardo"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 58,
+        "titulo": "Representación de redes neuro-simbólicas utilizando términos sub-algebraicos",
+        "alumno": "Galván López Marcos",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Calvo Castro Francisco Hiram","Menchaca Méndez Ricardo","Menchaca Méndez Rolando"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 59,
+        "titulo": "Aprendizaje por refuerzo para el cálculo de rutas en incendios modelados por autómatas celulares",
+        "alumno": "Coconi Tovar Dafne Natalia",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Menchaca Méndez Rolando","Juan Carlos Chimal Eguía","Menchaca Méndez Ricardo"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 60,
+        "titulo": "Implementación de técnicas de predicción en autómatas celulares para el análisis del mercado de valores",
+        "alumno": "Pérez Montes Sergio",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Juan Carlos Chimal Eguía","Rivero Ángeles Mario Eduardo","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Inscrito"
+    },
+    {
+        "id": 61,
+        "titulo": "Análisis de la probabilidad de accidentes vehiculares en un modelo propuesto de flujo de tráfico vehicular multi-carril",
+        "alumno": "Novoa Cataño Javier",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 62,
+        "titulo": "Modelación y simulación de la dinámica de peatones usando autómatas celulares con condiciones de frontera abiertas y periódicas",
+        "alumno": "Santana Rivas Ismael De Jesús",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 63,
+        "titulo": "Modelación y simulación de la dinámica de un fármaco usado para la infección del VIH",
+        "alumno": "Sánchez Romero Liliana",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 64,
+        "titulo": "Modelación y simulación de una vía rápida con rampas usando autómatas celulares",
+        "alumno": "Morales Fernández Alecxis",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 65,
+        "titulo": "Diseño e implementación de un modelo que describa la dinámica de un autómata celular utilizando redes de petri",
+        "alumno": "Martínez Molina Mario",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 66,
+        "titulo": "Un modelo de intérprete para un lenguaje de programación de sistemas basado en C",
+        "alumno": "Castro Campos Rodrigo Alexander",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 67,
+        "titulo": "Modelado microscópico de la dinámica del tránsito vehicular en una calle multicarril utilizando autómatas celulares",
+        "alumno": "Silos Martínez Ernesto JeanCarlos",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 68,
+        "titulo": "Modelación microscópica de la dinámica de un mercado de valores usando autómatas celulares",
+        "alumno": "Suárez Oropeza Miguel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 69,
+        "titulo": "Modelación microscópica del crecimiento de invasión de células cancerígenas usando automátas celulares",
+        "alumno": "Díaz Díaz Jaime",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 70,
+        "titulo": "Análisis cuantitativo de la dinámica de un autómata celular",
+        "alumno": "Salinas Aguilar Martha Elena",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Sidorov Grigori","Suárez Guerra Sergio","Moreno Ibarra Marco Antonio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 71,
+        "titulo": "Cifrado y descifrado de patrones usando autómatas celulares reversibles",
+        "alumno": "Martínez Hernández Juan Manuel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Moreno Ibarra Marco Antonio","Sidorov Grigori","Suárez Guerra Sergio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 72,
+        "titulo": "Modelado de criptosistemas usando autómatas celulares y transformaciones no afines",
+        "alumno": "Noyola Bautista Joel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Cruz Cortés Nareli","Sánchez Fernández Luis Pastor","Sidorov Grigori"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 73,
+        "titulo": "Modelado de las propiedades estilizadas y fractales que se dan en un mercado de valores",
+        "alumno": "Paredes Hernández Manuel Alejandro",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Retchkiman Konigsberg Mordejai Zvi","Carlos Fernando Aguilar Ibáñez","Sidorov Grigori"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 74,
+        "titulo": "Metodología heurística y autómatas celulares para la clasificación de patrones",
+        "alumno": "Martínez Chepe Jaime Jonathan",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Suárez Guerra Sergio","Medel Juárez José de Jesús","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 75,
+        "titulo": "Modelado de los efectos de pérdida neuronal en regiones asociadas con la Epilepsia del Lóbulo Temporal usando autómatas celulares",
+        "alumno": "Sánchez Piña Sarahi Andrea",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Sidorov Grigori","Salinas Rosales Moisés","Carlos Fernando Aguilar Ibáñez"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 76,
+        "titulo": "Modelación intracelular y extracelular del proceso invasivo de un tumor canceroso usando un autómata celular de red de gas",
+        "alumno": "Castro López Roberto",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Carlos Fernando Aguilar Ibáñez","Juan Carlos Chimal Eguía","Germán Téllez Castillo","Moreno Armendáriz Marco Antonio"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 77,
+        "titulo": "Modelación de la patogenia de la influenza A con autómatas celulares",
+        "alumno": "Balbuena Sánchez Alfonso",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Carlos Fernando Aguilar Ibáñez","Suárez Guerra Sergio","Juan Carlos Chimal Eguía"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 78,
+        "titulo": "Localizador de reglas de evolución para autómatas celulares bidimensionales por medio de algoritmos genéticos",
+        "alumno": "Toledo Alvarado Jorge Israel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 79,
+        "titulo": "Analisis y generalización de un modelo de tráfico vehicular usando autómatas celulares",
+        "alumno": "Luna Benoso Benjamín",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 80,
+        "titulo": "Autenticación y cifrado usando cero conocimiento y autómatas celulares",
+        "alumno": "Sainz Jaime José Emmanuel",
+        "programa": "Maestría en Ciencias de la Computación",
+        "profesor": ["Germán Téllez Castillo","Sidorov Grigori","Suárez Guerra Sergio","Salinas Rosales Moisés"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 81,
+        "titulo": "Modelo de comportamiento para sistemas multiagente con inteligencia colectiva",
+        "alumno": "Silva Contreras Daniel",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Germán Téllez Castillo","Godoy Calderón Salvador","Barrón Fernández Ricardo","Sánchez Fernández Luis Pastor","Rivero Ángeles Mario Eduardo"],
+        "estado": "Graduado"
+    },
+    {
+        "id": 82,
+        "titulo": "Aprendizaje de fenómenos con representación de estados en 2D",
+        "alumno": "Moreno Leyva Héctor Daniel",
+        "programa": "Maestría en Ciencias en Ingeniería de Cómputo",
+        "profesor": ["Germán Téllez Castillo","Godoy Calderón Salvador","Juan Carlos Chimal Eguía","Calvo Castro Francisco Hiram"],
+        "estado": "Graduado"
+    }
+
+
+]

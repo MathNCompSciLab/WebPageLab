@@ -36,13 +36,9 @@ export default function Proyectos()
                     <div className={Style.div6}>Responsable directo: {proyecto.participantes[0].nombre}</div>
                     <div className={Style.div7}>Institucion: {proyecto.institucion}</div>
                     <div className={Style.div8}>Colaboradores: { Colaboradores(proyecto.participantes)}
-                    
-
                     </div>
-       
                 </>
                 )}
-
                     </div>
                 
 

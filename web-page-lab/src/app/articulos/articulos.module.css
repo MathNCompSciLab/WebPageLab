@@ -1,19 +1,12 @@
-.containerproyectos{
-    height: 100%;
-}
-
-.proyecto{
+.articulo{
     color: #d9e9ff;
 }
-.tituloproyectos{
+.tituloarticulos{
     color: #f0f7ff;
     font-size: 55px;
     text-align: center;
     margin-top: 20px;
 }
-
-
-
 .boton {
     background-color: #3279ff;
     color: white;
@@ -29,17 +22,17 @@
     background-color: #1b57f5;
     transform: translateY(-5px);
   }
-  
+
+
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    
     align-items: start;
     margin-right: 10em;
-
 }
-.div1 {
-    
+
+.div1{
     padding-top: 50px;
     justify-self: end;
     margin-right: 15px;
@@ -54,12 +47,12 @@
     border-bottom: 1px solid #1b57f5;
     padding-top: 50px;
     align-self: center;
+    
 }
-
 
 .div3 {
     grid-column: span 2 / span 2;
-    grid-row: span 3 / span 3;
+    grid-row: span 5 / span 5;
     grid-column-start: 2;
     grid-row-start: 2;
     border-bottom: 1px solid #1b57f5;
@@ -69,41 +62,50 @@
 }
 
 .div4 {
+    grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 2;
-    
-    padding: 5px 10px;
+    padding: 0px 10px;
+    justify-self: center;
 }
 
 .div5 {
     grid-column-start: 5;
     grid-row-start: 2;
-    height: 100%;
-    
     padding: 5px 10px;
 }
 
 .div6 {
-    grid-column-start: 4;
+    grid-column-start: 5;
     grid-row-start: 3;
-    
     padding: 5px 10px;
 }
 
 .div7 {
-    grid-column-start: 5;
-    grid-row-start: 3;
-    height: 100%;
-    
-    padding: 5px 10px;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    padding: 0px 10px;
 }
 
 .div8 {
+    grid-column-start: 5;
+    grid-row-start: 4;
+    padding: 5px 10px;
+}
+
+.div9 {
     grid-column: span 2 / span 2;
     grid-column-start: 4;
-    grid-row-start: 4;
+    grid-row-start: 5;
+    padding: 5px 10px;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 6;
     height: 100%;
     border-bottom: 1px solid #1b57f5;
-    
     padding: 0px 10px;
 }
+        

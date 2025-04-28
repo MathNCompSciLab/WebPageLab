@@ -12,7 +12,7 @@
                 "rol": "Responsable técnico"
             },
             {
-                "nombre": "Chimal Eguía Juan Carlos",
+                "nombre": "Juan Carlos Chimal Eguía",
                 "rol": "Colaborador"
             },
             {
@@ -51,7 +51,7 @@
         "descripcion": "1.2 Objetivos específicos Obtener, analizar (matemáticamente) y simular (obtener datos) de 4 modelos que se relacionan a fenómenos de biológicos, físicos y de ingeniería 1.3 Objetivos específicos 1.- Analizar modelos de Biología matemática aplicada al SARS-COV-2 2.- Estudiar mediante la Termodinámica de Tiempos Finitos máquinas térmicas. 3.-Análizar de forma estocástica una red de sensores. 4.-Analizar sistemas criptográficos usando sistemas complejos.",
         "participantes": [
             {
-                "nombre": "Chimal Eguía Juan Carlos",
+                "nombre": "Juan Carlos Chimal Eguía",
                 "rol": "Responsable técnico"
             },
             {
@@ -73,7 +73,7 @@
         "descripcion": "",
         "participantes": [
             {
-                "nombre": "Chimal Eguía Juan Carlos",
+                "nombre": "Juan Carlos Chimal Eguía",
                 "rol": "Responsable técnico"
             }
         ]
@@ -87,7 +87,7 @@
         "descripcion": "Diseñar un control adaptable para sistemas lineales inciertos de segundo orden, que resuelva los problemas de regulación y seguimiento de trayectorias.",
         "participantes": [
             {
-                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "nombre": "Carlos Fernando Aguilar Ibáñez",
                 "rol": "Responsable técnico"
             },
             {
@@ -117,7 +117,7 @@
         "descripcion": "Diseñar de un observador no lineal para un motor de corriente directa con salida afectada por el ruido, donde estas perturbaciones están acotadas.",
         "participantes": [
             {
-                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "nombre": "Carlos Fernando Aguilar Ibáñez",
                 "rol": "Responsable técnico"
             }
         ]
@@ -131,7 +131,7 @@
         "descripcion": "Proponer un esquema de control basado en saturaciones anidadas y un observador del tipo super tweesting para resolver el problema de seguimiento de trayectorias para un levitador magnético. Encontrar la forma de expresar el modelo dinámico del levitador magnético en su forma conocida como variable de estado, en el que se considera la incertidumbre dinámica y las perturbaciones externas. Diseñar un observador del tipo super twisting para estimar la velocidad desconocida de la esfera que levita debido al campo magnético que produce un selenoide.",
         "participantes": [
             {
-                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "nombre": "Carlos Fernando Aguilar Ibáñez",
                 "rol": "Responsable técnico"
             },
             {
@@ -150,7 +150,7 @@
         "descripcion": "",
         "participantes": [
             {
-                "nombre": "Aguilar Ibáñez Carlos Fernando",
+                "nombre": "Carlos Fernando Aguilar Ibáñez",
                 "rol": "Responsable técnico"
             }
         ]
@@ -164,7 +164,7 @@
         "descripcion": "Proponer un esquema de control que resuelva el problema de seguimientos de trayectorias para barcos y vehículos anfibios, con aplicación al problema de persecución-evasión.",
         "participantes":[
             {
-                "nombre":"Aguilar Ibáñez Carlos Fernando",
+                "nombre":"Carlos Fernando Aguilar Ibáñez",
                 "rol":"Responsable técnico"
             }
         ]
@@ -178,7 +178,7 @@
         "descripcion": "Basados en modelos matemáticos continuos se desarrollará de un programa computacional amigable al usuario que permita optimizar el rendimiento productivo, económico y ambiental en la producción de camarón.",
         "participantes":[
             {
-                "nombre":"Chimal Eguía Juan Carlos",
+                "nombre":"Juan Carlos Chimal Eguía",
                 "rol":"Responsable técnico"
             }
         ]
@@ -192,7 +192,7 @@
         "descripcion": "Resolver problemas de ciencia e ingeniería con modelos matemáticos y computacionales mediante técnicas de aprendizaje automático Proponer modelos matemáticos y computacionales para resolver problemas usando aprendizaje automático.",
         "participantes":[
             {
-                "nombre":"Aguilar Ibáñez Carlos Fernando",
+                "nombre":"Carlos Fernando Aguilar Ibáñez",
                 "rol":"Responsable técnico"
             },
             {
@@ -215,6 +215,27 @@
                 "nombre":"Montiel Saldaña José Ricardo",
                 "rol":"Colaborador"
             }
+        ]
+
+    }
+    ,
+    {
+        "id": 11,
+        "titulo": "Modelado, Análisis de Estabilidad y Diseño de Horarios para Sistemas a Eventos Discretos: Aplicaciones.",
+        "institucion": "SIP-IPN",
+        "fechaInicio": "2011-01-01 12:00:00",
+        "fechaFin": "2011-12-31 12:00:00",
+        "descripcion": "No. de registro SIP 2011-0053",
+        "participantes":[
+            {
+                "nombre":"Retchkiman Konigsberg Mordejai Zvi",
+                "rol":"Responsable técnico"
+            },
+            {
+                "nombre":"Germán Téllez Castillo",
+                "rol":"Colaborador"
+            }
+
         ]
     }
 

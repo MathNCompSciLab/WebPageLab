@@ -7,7 +7,7 @@ export default function Home() {
   const banners = [
     <div key="1" className={styles.bannerImagen}>
       <Image 
-        src="/Ejemplo1.png" 
+        src="/banners/Ejemplo1.png" 
         alt="Promoción 1" 
         fill={true}
         className={styles.customImagen}
@@ -16,7 +16,7 @@ export default function Home() {
     </div>,
     <div key="2" className={styles.bannerImagen}>
       <Image 
-        src="/Ejemplo2.png" 
+        src="/banners/Ejemplo3.png" 
         alt="Promoción 2" 
         fill={true}
         className={styles.customImagen}
@@ -25,7 +25,7 @@ export default function Home() {
     </div>,
     <div key="3" className={styles.bannerImagen}>
     <Image 
-      src="/Ejemplo3.png" 
+      src="/banners/Ejemplo2.png" 
       alt="Promoción 3" 
       fill={true}
       className={styles.customImagen}
@@ -37,7 +37,7 @@ export default function Home() {
     <div>
         
        <div className={styles.imagecontainer}>
-         <BannerRotativo banners={banners} intervalo={"3000"} />
+         <BannerRotativo banners={banners} intervalo={"9000"} />
         </div>
 
       {/* Sección 1 */}
@@ -51,15 +51,16 @@ export default function Home() {
           priority 
           />
           <div className={styles.textoContainer}>
-          <p>Welcome to the Mathematical and Computational Sciences Laboratory home page at the Center for 
-            Computing Research IPN. Nowadays the mathematical and computational modeling of natural phenomena 
-            represent a methodological challenge because they require the knowledge of different methodologies.
-            The main mission of the laboratory is to apply the formal methods, ie mathematically based techniques 
-            to the modeling and simulation of real case studies mainly in the physical, biological, engineering and 
-            computational domains. Our laboratory is the place where Msc and Ph. D students can study, in depth, apply 
-            and practice new methodological paradigms. By being involved in real projects and interacting both with Academic 
-            staff and external researchers, students are stimulated to improve and approach is particularly useful for bridging
-             knowledge and research as the «Raison detre» of the laboratory.</p>
+          <p>Bienvenido a la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
+            del Centro de Investigación en Computación del IPN. Hoy en día, el modelado matemático y computacional
+            de fenómenos naturales representa un reto metodológico, ya que requiere el conocimiento de diferentes
+            metodologías. La misión principal del laboratorio es aplicar métodos formales, es decir, técnicas
+            con base matemática, al modelado y simulación de casos de estudio reales, principalmente en los 
+            dominios de la física, la biología, la ingeniería y la computación. Nuestro laboratorio es el lugar
+            donde estudiantes de maestría y doctorado pueden profundizar, aplicar y practicar nuevos paradigmas
+            metodológicos. Al participar en proyectos reales e interactuar tanto con personal académico como con
+            investigadores externos, los estudiantes se ven estimulados a mejorar, y este enfoque es particularmente
+            útil para conectar el conocimiento con la investigación, la razón de ser del laboratorio.</p>
             </div>
       </section>
       

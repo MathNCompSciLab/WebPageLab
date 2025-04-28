@@ -1,0 +1,61 @@
+
+.contenedorBanner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+.botonAnterior{
+    
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    z-index: 10000;
+    background-color: transparent;
+    border: none;
+    font-size: 90px;
+}
+.botonSiguiente{
+    position: absolute;
+
+    top: 40%;
+    right: 0px;
+    cursor: pointer;
+    z-index: 10000;
+    background-color: transparent;
+    border: none;
+    font-size: 90px;
+}
+.botonAnterior:hover,
+.botonSiguiente:hover {
+    color: var(--secondary-color);
+  }
+
+
+  .contenidoBanner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s linear;
+    background-size: cover;
+    background-position: center;
+  }
+  .anterior {
+    transform: translateX(-100%);
+  }
+  .saliendoIzquierda {
+    transform: translateX(-100%);
+  }
+  .saliendoDerecha {
+    transform: translateX(100%);
+  }
+  
+  .siguiente {
+    transform: translateX(100%);
+  }
+  
+  .entrando {
+    transform: translateX(0);
+  } 
