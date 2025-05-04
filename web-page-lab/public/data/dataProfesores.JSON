@@ -23,7 +23,8 @@
         "M. en C. en Fisicomatemáticas (1996)",
         "Lic. en Física y matemáticas (1994)"
       ],
-      "contacto": "chimal@cic.ipn.mx"
+      "contacto": "chimal@cic.ipn.mx",
+      "cursos": ["Probabilidad, procesos aleatorios e interferencia","Teoria de la computacion","Matematicas Biologicas","Computo cientifico","Complejidad Computacional"]
     },
     {
       "id": "carlos-fernando",
@@ -36,7 +37,8 @@
         "Lic. en Física",
         "M. en C. en Ingeniería Eléctrica"
       ],
-      "contacto": "carlosaguilari@cic.ipn.mx"
+      "contacto": "carlosaguilari@cic.ipn.mx",
+      "cursos": ["Control Automatico","Temas Selectos de Computacion"]
     },
     {
       "id": "german-tellez",
@@ -47,7 +49,8 @@
       "educacion": [
         "M. en C. en Ciencias de la Computación"
       ],
-      "contacto": "jgtc1311@cic.ipn.mx"
+      "contacto": "jgtc1311@cic.ipn.mx",
+      "cursos": ["Matematicas para la ciencias de la computacion","Teoria de Grafos","Simulacion y Modelado","Complejidad Computacional"]
     }
 
   ]

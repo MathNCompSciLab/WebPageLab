@@ -22,7 +22,7 @@ const roboto = DM_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body  className={roboto.className}>
+      <body className={roboto.className}>
         
       
        
@@ -38,13 +38,13 @@ export default function RootLayout({ children }) {
             />
 
           <div className="container">
-            <h1  className={roboto.className} > 
+            <h1> 
               
             Laboratorio de Ciencia Matematicas y Computacionales</h1>
             
               <ul className="nav-links">
                 <li ><Link href="/">Inicio</Link></li>
-                <Menuintegrantes  className={roboto.className}/> 
+                <Menuintegrantes /> 
                 <li><Link href="/proyectos">Proyectos</Link></li>
                 <li><Link href="/articulos">Articulos</Link></li>
                 <li><Link href="/oportunidades">Oportunidades</Link></li>

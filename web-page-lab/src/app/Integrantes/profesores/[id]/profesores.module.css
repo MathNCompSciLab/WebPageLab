@@ -1,11 +1,11 @@
 .profesorbody{
     height: 100%;
     
+    color: aliceblue;
     margin-top: 120px;
 }
 
 .profesorContainer{
-    color: aliceblue;
     display: flex;
     margin: 0px 110px;    
     background-color: #0e0e11;
@@ -44,4 +44,13 @@
     margin: 30px 10px;
     border-bottom: 1px solid #3279ff;
     
+}
+.profesorArticulos{
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+.profesorProyectos{
+    margin: 5%;
+    margin-left: 10%;
 }
