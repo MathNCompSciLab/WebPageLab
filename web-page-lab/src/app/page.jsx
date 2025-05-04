@@ -36,25 +36,32 @@ export default function Home() {
     <div>
         
        <div>
-        <h2 className="text-4xl text-center bg-[#000b49] text-blue-100 pb-4">"Noticias"</h2>
+        <h2 className="text-4xl text-center bg-[#000b49] text-white pb-4">"Noticias"</h2>
          <BannerRotativo banners={banners} intervalo={"9000"} />
         </div>
 
       {/* Sección 1 */}
-      <section className="bg-gradient-to-br from-gray-900 to to-blue-500 text-white h-full flex items-center justify-center">
+      <section className="bg-gradient-to-br from-gray-900 to to-blue-500 text-white h-full">
+        <div className=" bg-[url('/Laboratorio/3.jpg')]  mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-100% h-screen z-0"> 
+
           
-          <Image 
+
+          
+          {/* <Image 
           src="/Laboratorio/3.jpg" 
           alt="Promoción 3" 
           width={1000}
           height={600}
           className="object-cover mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-100% flex-10/12 h-screen" 
           priority 
-          />
+          /> */}
 
-          <div className=" text-gray-100 max-h-7/12 w-9/12 flex flex-col justify-center bg-gray-950 flex-3/12 p-10 mx-5 rounded-4xl">
-          <h2 className="text-4xl font-bold mb-6 text-center">Bienvenido</h2>
-          <p className="text-center text-sm text-balance ">Esta es la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
+            
+          </div>
+
+          <div className=" text-blue-100 max-h-full w-9/12 flex flex-col justify-center bg-gray-950 p-10 mx-auto rounded-4xl z-10 absolute top-11/12 left-1/2 transform -translate-x-1/2 ">
+          <h2 className="text-4xl mb-6 text-center">Bienvenido</h2>
+          <p className="text-center text-lg text-balance ">Esta es la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
             del Centro de Investigación en Computación del IPN. Hoy en día, el modelado matemático y computacional
             de fenómenos naturales representa un reto metodológico, ya que requiere el conocimiento de diferentes
             metodologías. La misión principal del laboratorio es aplicar métodos formales, es decir, técnicas
@@ -65,6 +72,10 @@ export default function Home() {
             investigadores externos, los estudiantes se ven estimulados a mejorar, y este enfoque es particularmente
             útil para conectar el conocimiento con la investigación, la razón de ser del laboratorio.</p>
             </div>
+
+
+
+            
       </section>
       
 
@@ -104,7 +115,10 @@ export default function Home() {
       </section>
 
       {/* Sección 3 */}
-      <section className="bg-gradient-to-tl from-gray-900 to to-blue-500 text-white h-screen flex items-center flex-wrap " id="investigacion">
+      <div className="bg-gradient-to-tl from-gray-900 to to-blue-500 h-full">
+
+      
+      <section className=" text-white h-screen flex items-center flex-wrap " id="investigacion">
           <div className="ml-30 ml- border-t-1 border-slate-100 pt-15 z-50">
             <ul className="list-disc mx-20" > <h2  className="mb-5 text-3xl font-medium text-center">Lineas de investigacion</h2>
               <li>Matemáticas Puras</li>
@@ -144,7 +158,7 @@ export default function Home() {
 
 
       {/* Sección 4 */}
-      <section className="text-blue-100 h-[60vh]" id="objetivos">
+      <section className="text-white h-[60vh]" id="objetivos">
       <h2 className="text-center text-4xl text-blue-100 my-20">Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
           <div className="flex justify-around">
             <ul className="list-disc text-left ml-30">
@@ -169,18 +183,18 @@ export default function Home() {
             />
             </div>
             </section>
+            </div>
 
 
 
       {/* Sección 5 */}
-      <section className="text-blue-100 flex flex-col items-center p-10 bg-gradient-to-br from-gray-900 to to-blue-500" id="historia">
-          <h2 className="text-center text-4xl text-blue-100 my-10">Historia</h2>
+      <section className="text-blue-100 flex flex-col items-center p-10 bg-gradient-to-bl from-gray-950 via-gray-800 to-gray-950" id="historia">
           <Image 
           src="/Laboratorio/19.jpg" 
           alt="Promoción 3" 
           width={1040}
           height={600}
-          className="object-cover w-auto h-auto brightness-80 mask-radial mask-radial-at-center mask-radial-from-40%  mask-radial-to-90%"
+          className="object-cover w-auto h-auto brightness-80 my-10"
           priority 
           />
           <div className="my-10 ">

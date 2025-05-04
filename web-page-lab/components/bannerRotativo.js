@@ -15,7 +15,7 @@ const BannerRotativo = ({ banners, intervalo = 5000 }) => {
       setTimeout(() => {
         setBannerActual((prev) => (prev + 1) % banners.length);
         setTransicionando(false);
-      }, 1000); 
+      }, 400); 
     }, intervalo);
     
 
@@ -32,20 +32,20 @@ const BannerRotativo = ({ banners, intervalo = 5000 }) => {
           setTimeout(() => {
             setBannerActual((prev) => (prev - 1 + banners.length) % banners.length);
             setAnterior(false);
-          }, 1000); }
+          }, 400); }
         }}>
         ➤
       </button>
-      <div className={`${styles.contenidoBanner} ${styles.anterior} ${anterior ? styles.entrando: ''}`} style={{ transitionDuration: anterior ? '1s' : '0s' }}>
+      <div className={`${styles.contenidoBanner} ${styles.anterior} ${anterior ? styles.entrando: ''}`} style={{ transitionDuration: anterior ? '.4s' : '0s' }}>
         {banners[(bannerActual - 1) % banners.length]}
       </div>
       
 
-      <div className={`${styles.contenidoBanner} ${transicionando ? styles.saliendoIzquierda : ''} ${anterior ? styles.saliendoDerecha : ''}`} style={{ transitionDuration: (transicionando||anterior) ? '1s' : '0s' }}>
+      <div className={`${styles.contenidoBanner} ${transicionando ? styles.saliendoIzquierda : ''} ${anterior ? styles.saliendoDerecha : ''}`} style={{ transitionDuration: (transicionando||anterior) ? '.4s' : '0s' }}>
         {banners[bannerActual]}
       </div>
       
-      <div className={`${styles.contenidoBanner} ${styles.siguiente} ${transicionando ? styles.entrando : ''}`} style={{ transitionDuration: transicionando ? '1s' : '0s' }}>
+      <div className={`${styles.contenidoBanner} ${styles.siguiente} ${transicionando ? styles.entrando : ''}`} style={{ transitionDuration: transicionando ? '.4s' : '0s' }}>
         {banners[(bannerActual + 1) % banners.length]}
       </div>
       &lt;
@@ -57,7 +57,7 @@ const BannerRotativo = ({ banners, intervalo = 5000 }) => {
           setTimeout(() => {
             setBannerActual((prev) => (prev + 1) % banners.length);
             setTransicionando(false);
-          }, 1000); 
+          }, 400); 
         }}>
        ➤
       </button>

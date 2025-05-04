@@ -97,7 +97,7 @@ body {
 .menu-desplegable {
   
   position: absolute;
-  background-color: #3279ff;
+  background-color: #030712;
   border-right: 1px solid #d9e9ff;
   border-bottom: 1px solid #d9e9ff;
 
@@ -114,7 +114,7 @@ body {
 
 .menu-desplegable .menu-desplegableprofesores {
   position: absolute;
-  background-color: #3279ff;
+  background-color: #030712;
   border-right: 1px solid #d9e9ff;
   border-bottom: 1px solid #d9e9ff;
   width: 300px;
