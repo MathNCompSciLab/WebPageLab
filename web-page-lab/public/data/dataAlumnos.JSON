@@ -1,18 +1,10 @@
 [
-    {
-      "id": "licenciatura-1",
-      "nombre": "Ismael Resendis Morales",
-      "cargo": "Servicio Social",
-      "imagen": "/integrantes/foto-default.png",
-      "biografia": "jaja no vale madre",
-      "contacto": "No disponible"
-    },
+   
     {
       "id": "maestria-1",
       "nombre": "Dafne Coconi",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "es bien estudiosa",
       "contacto": "No disponible"
     },
     {
@@ -20,7 +12,6 @@
       "nombre": "Aldair Cortés",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "se llama aldair y asi",
       "contacto": "No disponible"
     },
     {
@@ -28,7 +19,6 @@
       "nombre": "Alan Jiménez",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "es bien chido",
       "contacto": "No disponible"
     },
     {
@@ -36,7 +26,6 @@
       "nombre": "Sergio Perez",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
@@ -44,7 +33,6 @@
       "nombre": "Alejandro Ruiz",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
@@ -52,7 +40,6 @@
       "nombre": "Luis Rojo",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
@@ -60,7 +47,6 @@
       "nombre": "Luis Farias",
       "cargo": "Maestría",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
@@ -74,7 +60,7 @@
     {
       "id": "doctorado-1",
       "nombre": "Ivan",
-      "cargo": "Maestría",
+      "cargo": "Doctorado",
       "imagen": "/integrantes/foto-default.png",
       "biografia": "ya no se que poner",
       "contacto": "No disponible"
@@ -82,25 +68,29 @@
     {
       "id": "doctorado-2",
       "nombre": "Alejandro Cardora",
-      "cargo": "Maestría",
+      "cargo": "Doctorado",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
       "id": "doctorado-3",
       "nombre": "Diana Barragan",
-      "cargo": "Maestría",
+      "cargo": "Doctorado",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
       "contacto": "No disponible"
     },
     {
       "id": "doctorado-4",
       "nombre": "Irari Jimenez",
-      "cargo": "Maestría",
+      "cargo": "Doctorado",
       "imagen": "/integrantes/foto-default.png",
-      "biografia": "ya no se que poner",
+      "contacto": "No disponible"
+    },
+     {
+      "id": "licenciatura-1",
+      "nombre": "Ismael Resendis Morales",
+      "cargo": "Servicio Social",
+      "imagen": "/integrantes/foto-default.png",
       "contacto": "No disponible"
     }
 

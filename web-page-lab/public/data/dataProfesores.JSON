@@ -1,17 +1,5 @@
 [
-    {
-      "id": "rocio",
-      "nombre": "Rocio",
-      "cargo": "Investigadora",
-      "imagen": "/",
-      "biografia": "Doctora en Ciencias de la Computación con especialización en inteligencia artificial...",
-      "educacion": 
-      [
-        "PhD en Ciencias de la Computación, Universidad de Buenos Aires",
-        "MSc en Ingeniería de Software, Universidad Nacional de Colombia"
-      ],
-      "contacto": "No disponible"
-    },
+    
     {
       "id": "juan-carlos",
       "nombre": "Juan Carlos Chimal Eguía",
@@ -51,6 +39,19 @@
       ],
       "contacto": "jgtc1311@cic.ipn.mx",
       "cursos": ["Matematicas para la ciencias de la computacion","Teoria de Grafos","Simulacion y Modelado","Complejidad Computacional"]
+    },
+    {
+      "id": "rocio",
+      "nombre": "Rocio",
+      "cargo": "Investigadora",
+      "imagen": "/integrantes/foto-default.png",
+      "biografia": "Doctora en Ciencias de la Computación con especialización en inteligencia artificial...",
+      "educacion": 
+      [
+        "PhD en Ciencias de la Computación, Universidad de Buenos Aires",
+        "MSc en Ingeniería de Software, Universidad Nacional de Colombia"
+      ],
+      "contacto": "No disponible"
     }
 
   ]

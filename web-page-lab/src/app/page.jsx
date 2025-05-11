@@ -4,27 +4,27 @@ import BannerRotativo from "../../components/bannerRotativo";
 
 export default function Home() {
   const banners = [
-    <div key="1" className="relative flex h-[300px]">
+    <div key="1" className="relative flex h-[35vh]">
       <Image 
-        src="/banners/Ejemplo1.png" 
+        src="/banners/Ejemplo3.png" 
         alt="Promoción 1" 
         fill={true}
         className="object-cover"
         priority 
       />
     </div>,
-    <div key="2" className="relative flex h-[300px]">
+    <div key="2" className="relative flex h-[35vh]">
       <Image 
-        src="/banners/Ejemplo3.png" 
+        src="/banners/Ejemplo2.png" 
         alt="Promoción 2" 
         fill={true}
         className="object-cover"
         priority 
       />
     </div>,
-    <div key="3" className="relative flex h-[300px]">
+    <div key="3" className="relative flex h-[35vh]">
     <Image 
-      src="/banners/Ejemplo2.png" 
+      src="/banners/Ejemplo1.png" 
       alt="Promoción 3" 
       fill={true}
       className="object-cover"
@@ -36,13 +36,12 @@ export default function Home() {
     <div>
         
        <div>
-        <h2 className="text-4xl text-center bg-[#000b49] text-white pb-4">"Noticias"</h2>
          <BannerRotativo banners={banners} intervalo={"9000"} />
         </div>
 
       {/* Sección 1 */}
-      <section className="bg-gradient-to-br from-gray-900 to to-blue-500 text-white h-full">
-        <div className=" bg-[url('/Laboratorio/3.jpg')]  mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-100% h-screen z-0"> 
+      <section className="bg-gradient-to-br from-blue-500 via-gray-800 to-blue-500 text-white h-full">
+        <div className=" bg-[url('/Laboratorio/3.jpg')]  mask-radial mask-radial-at-center mask-radial-from-10%  mask-radial-to-100% h-screen z-0 bg-fixed"> 
 
           
 
@@ -59,7 +58,7 @@ export default function Home() {
             
           </div>
 
-          <div className=" text-blue-100 max-h-full w-9/12 flex flex-col justify-center bg-gray-950 p-10 mx-auto rounded-4xl z-10 absolute top-11/12 left-1/2 transform -translate-x-1/2 ">
+          <div className=" text-blue-100 max-h-full w-9/12 flex flex-col justify-center bg-gray-950 p-10 mx-auto rounded-4xl z-10 absolute top-9/12 left-1/2 transform -translate-x-1/2 ">
           <h2 className="text-4xl mb-6 text-center">Bienvenido</h2>
           <p className="text-center text-lg text-balance ">Esta es la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
             del Centro de Investigación en Computación del IPN. Hoy en día, el modelado matemático y computacional
@@ -84,7 +83,7 @@ export default function Home() {
 
       {/* Sección 2*/}
       <section className="bg-gray-950 h-full">
-        <div className="container mx-auto py-8">
+        <div className="w-9/12 text-center mx-auto py-8">
           
           <h2 className="text-center text-4xl font-bold text-blue-100 mb-10">INFORMACION</h2>
 
@@ -119,7 +118,7 @@ export default function Home() {
 
       
       <section className=" text-white h-screen flex items-center flex-wrap " id="investigacion">
-          <div className="ml-30 ml- border-t-1 border-slate-100 pt-15 z-50">
+          <div className="ml-30 ml- border-t-1 border-slate-100 pt-15 z-30">
             <ul className="list-disc mx-20" > <h2  className="mb-5 text-3xl font-medium text-center">Lineas de investigacion</h2>
               <li>Matemáticas Puras</li>
               <li>Matemáticas Aplicadas</li>
@@ -135,7 +134,7 @@ export default function Home() {
               <li>1Inteligencia Artificial Simbólica</li>
             </ul>
           </div>
-          <div className="ml-10 border-t-1 border-slate-100 pt-15 z-50">
+          <div className="ml-10 border-t-1 border-slate-100 pt-15 z-30">
             <ul className="list-disc mx-20"> <h2 className="mb-5 text-3xl font-medium text-center">Aplicaciones </h2>
               <li>Predicción climática o epidemiológica </li>
               <li>Predicción de colapsos financieros </li>
@@ -158,7 +157,7 @@ export default function Home() {
 
 
       {/* Sección 4 */}
-      <section className="text-white h-[60vh]" id="objetivos">
+      <section className="text-white h-[70vh]" id="objetivos">
       <h2 className="text-center text-4xl text-blue-100 my-20">Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
           <div className="flex justify-around">
             <ul className="list-disc text-left ml-30">
@@ -178,33 +177,34 @@ export default function Home() {
             alt="Promoción 3" 
             width={250}
             height={250}
-            className="object-cover  "
+            className="object-cover w-auto h-auto "
             priority 
             />
             </div>
             </section>
-            </div>
+            
 
 
 
       {/* Sección 5 */}
-      <section className="text-blue-100 flex flex-col items-center p-10 bg-gradient-to-bl from-gray-950 via-gray-800 to-gray-950" id="historia">
+      <section className="text-blue-100 flex p-10 h-screen flex-row-reverse gap-6" id="historia">
           <Image 
           src="/Laboratorio/19.jpg" 
           alt="Promoción 3" 
-          width={1040}
+          width={800}
           height={600}
-          className="object-cover w-auto h-auto brightness-80 my-10"
+          className="object-cover absolute left-0 mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-70% h-[90vh] brightness-80 my-10 w-auto "
           priority 
           />
-          <div className="my-10 ">
-            
+          <div className="my-10 self-center w-4xl mx-10 z-30">
+            <h2 className="text-4xl  text-center mb-4 ">Historia</h2>
             <p>El laboratorio de Ciencias Matemáticas y Computacionales fue fundado en el año 2000 con el objetivo de realizar investigación básica y aplicada en las áreas de matemáticas puras y aplicadas, computación científica, ciencia de datos y machine learning. Desde su fundación, el laboratorio ha llevado a cabo numerosos proyectos de investigación en
-               colaboración con otras instituciones académicas y de investigación, tanto a nivel nacional como internacional.</p>
-            <p>El laboratorio cuenta con un equipo de investigadores altamente capacitados y con amplia experiencia en sus respectivas áreas de especialización. Además, el laboratorio ofrece programas de formación de recursos humanos a nivel de maestría y doctorado, así como actividades de divulgación científica y tecnológica.</p>
-            <p>A lo largo de los años, el laboratorio ha contribuido al desarrollo de tecnologías innovadoras y soluciones computacionales para resolver problemas complejos en diversas áreas, como la predicción climática, la predicción de colapsos financieros, la animación médica, las finanzas cuantitativas, la secuenciación genómica y el diagnóstico médico por imágenes.</p>
+              colaboración con otras instituciones académicas y de investigación, tanto a nivel nacional como internacional.
+              El laboratorio cuenta con un equipo de investigadores altamente capacitados y con amplia experiencia en sus respectivas áreas de especialización. Además, el laboratorio ofrece programas de formación de recursos humanos a nivel de maestría y doctorado, así como actividades de divulgación científica y tecnológica.
+              A lo largo de los años, el laboratorio ha contribuido al desarrollo de tecnologías innovadoras y soluciones computacionales para resolver problemas complejos en diversas áreas, como la predicción climática, la predicción de colapsos financieros, la animación médica, las finanzas cuantitativas, la secuenciación genómica y el diagnóstico médico por imágenes.</p>
             </div>
             </section>
+            </div>
     </div>
 
   );

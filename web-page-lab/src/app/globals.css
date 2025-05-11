@@ -3,9 +3,9 @@
 
 :root {
   --primary-color: #3498db;
-  --secondary-color: #3279ff;
+  --secondary-color: #070708;
   --background-color: #18181b;
-  --text-color: #000000;
+  --text-color: #ffffff;
   --header-bg: #000b49;
   --header-text: #eef5ff;
   --footer-bg: #142157;
@@ -13,39 +13,10 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
   background-color: var(--background-color);
-  color: var(--text-color);
   line-height: 1.6;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  
-
-}
-.logo{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 7%;
-  border-radius: 15px 0 15px 0 ;
-}
-.header {
-  background-color: var(--header-bg);
-  color: var(--header-text);
-  padding: 20px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
 
 .nav-links {
   list-style: none;
@@ -72,9 +43,8 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--secondary-color);
   
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .nav-links button {
@@ -90,8 +60,8 @@ body {
 }
 
 .nav-links button:hover {
-  color: var(--secondary-color);
-  background-color: rgba(255, 255, 255, 0.2);
+  
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .menu-desplegable {
@@ -135,17 +105,4 @@ body {
 }
 .menu-desplegable a:hover {
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-.footer {
-  background-color: var(--footer-bg);
-  color: var(--footer-text);
-  text-align: center;
-  padding: 20px 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.footer p {
-  margin: 0;
-  font-size: 0.9rem;
 }
