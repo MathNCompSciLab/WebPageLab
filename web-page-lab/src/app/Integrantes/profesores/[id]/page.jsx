@@ -1,5 +1,6 @@
-import Styles from './profesores.module.css';
+
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default async function Page({ params }) {
@@ -21,21 +22,30 @@ export default async function Page({ params }) {
   
 
   if (!profesor) {
-    return <div className={Styles.noencontrado}>Profesor no encontrado</div>;
+    return <div className="text-4xl">Profesor no encontrado</div>;
   }
 
   return (
-    <div className={Styles.profesorbody}>
+    <div className="flex flex-col items-center text-blue-100 ">
+      <div className='self-start justify-self-start w-4/5 p-6'>
+       
+        <Link href="/Integrantes" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded text-2xl ">Regresar</Link>
+      
+      </div>
 
-    <div className={Styles.profesorContainer}>
-        <div className={Styles.profesorInfo}>
+      
 
-        <h1 className={Styles.profesorNombre}>{profesor.nombre}</h1>
+    <div className="flex flex-wrap justify-around w-4/5 bg-zinc-800 items-center rounded-2xl my-20 md:flex-nowrap">
+      
+        <div className="mx-10">
+
+        <h1 className="text-4xl border-b-2 border-blue-500 text-center m-8  p-3">{profesor.nombre}</h1>
         <p>{profesor.cargo}</p>
         <p>Contacto: {profesor.contacto}</p>
 
+
         <p>{profesor.biografia}</p>
-        <ul className={Styles.profesorTitulos}>
+        <ul className="list-disc ml-20 m-5">
           {
           profesor.educacion.map((titulo, index) => (
             <li key={index}>{titulo}</li>
@@ -53,16 +63,19 @@ export default async function Page({ params }) {
       <Image 
       src={profesor.imagen} 
       alt={profesor.nombre} 
-      width={300}
-      height={300}
-      className= " h-auto w-auto mr-10"
+      width={400}
+      height={400}
+      className= " h-auto w-auto mx-10  max-md:py-10"
       priority 
       />
+
       </div>
+
+      
 
 
       <div>
-        <div className="mx-40 my-25">
+        <div className="mx-40 my-25 max-md:mx-15 ">
           <h2 className="text-3xl mb-6">Cursos impartidos por {profesor.nombre}</h2>
           {profesor.cursos && (
             <ul className="list-disc">
@@ -77,7 +90,7 @@ export default async function Page({ params }) {
 
        
 
-        <div className="mx-40 my-20">
+        <div className="mx-40 my-20 max-md:mx-15 ">
           <h2 className="text-3xl mb-6">Tesis en donde participo {profesor.nombre}</h2>
           {tesis && (
             <ul className="list-disc">
@@ -88,7 +101,7 @@ export default async function Page({ params }) {
           )}
         </div>
 
-        <div className="mx-40 my-20">
+        <div className="mx-40 my-20 max-md:mx-15">
           <h2 className="text-3xl mb-6">Articulos publicados por {profesor.nombre}</h2>
           {articulos && (
             <ul className="list-disc">
@@ -99,7 +112,7 @@ export default async function Page({ params }) {
           )}
         </div>
 
-        <div className="mx-40 my-20">
+        <div className="mx-40 my-20 max-md:mx-15">
           <h2 className="text-3xl mb-6">Proyectos en los que ha trabajado {profesor.nombre}</h2>
           {proyectos && (
             <ul className="list-disc">
