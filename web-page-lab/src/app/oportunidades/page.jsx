@@ -3,7 +3,7 @@ export default function Oportunidades()
 {
     return(
       <div className="text-center text-blue-100 h-full">
-        <div className="my-10 w-3xl mx-auto">
+        <div className="my-10 w-3xl mx-auto max-md:w-full">
         <h1 className="text-4xl font-bold text-blue-100 text-center mb-4">
         Que mas ofrecemos?
       </h1>
@@ -11,7 +11,7 @@ export default function Oportunidades()
         para impulsar el desarrollo de proyectos innovadores en ciencias matemáticas y 
         computacionales. Te invitamos a explorar las siguientes oportunidades:</p>
         </div>
-        <div className="grid grid-cols-2  gap-4 text-left items-center">
+        <div className="grid grid-cols-2  gap-4 text-left items-center max-md:grid-cols-1">
           <div>
             <h2 className="text-3xl font-bold text-blue-100 text-center mb-10" > Servicio social y Practicas profecionales</h2>
             <p className="px-10">Oportunidad para estudiantes de licenciatura que desean aplicar sus 

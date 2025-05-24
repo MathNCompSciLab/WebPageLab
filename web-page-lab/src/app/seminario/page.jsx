@@ -32,7 +32,7 @@ export default function Seminario()
         <div className="text-center text-blue-100 h-full flex flex-col items-center">
         
         
-        <div className="w-3/4 grid grid-cols-1 border border-slate-600 p-12 my-20 bg-gradient-to-br from-blue-950 via-sky-900 to-stone-500/10">
+        <div className="w-3/4 grid grid-cols-1 border border-slate-600 p-12 my-20 bg-gradient-to-br from-blue-950 via-sky-900 to-stone-500/10 max-md:w-full">
             <h1 className="mx-auto text-5xl font-bold mb-10">
                     CALENDARIO</h1>
 

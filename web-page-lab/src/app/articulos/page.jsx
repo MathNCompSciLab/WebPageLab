@@ -24,7 +24,7 @@ export default function Articulos()
         articulosData.map((articulo) => (
             <div key={articulo.id} className={Style.articulo}>
                                 
-                <div className={Style.parent}>
+                <div className={`${Style.parent} max-md:w-full `}>
                     <div className={Style.div1}><button onClick={() => handleId(articulo.id)} className={Style.boton}>🡻</button></div>
                     <div className={Style.div2} style={{ border: (isOpen==articulo.id) ? '0px' : '' }}><h4>{articulo.titulo}</h4></div>
                     {(isOpen==articulo.id) && (<>

@@ -25,8 +25,8 @@ export default function Proyectos()
     <h2 className={Style.tituloproyectos}>Proyectos en los que hemos trabajado</h2>
     {
         proyectosData.map((proyecto) => (
-            <div key={proyecto.id} className={Style.proyecto}>
-                <div className={Style.parent}>
+            <div key={proyecto.id} className={`${Style.proyecto}`}>
+                <div className={`${Style.parent} max-md:w-full `}>
                     <div className={Style.div1}><button onClick={() => handleId(proyecto.id)} className={Style.boton}>🡻</button></div>
                     <div className={Style.div2} style={{ border: (isOpen==proyecto.id) ? '0' : '' }}><h4>{proyecto.titulo}</h4></div>
                 {(isOpen==proyecto.id) && (<>

@@ -16,7 +16,7 @@ export default function Integrantes() {
             profesoresData.map(profesor => (
                 
                     <div key={profesor.id} className="flex justify-center py-5 gap-5">
-                        <Link href={`/Integrantes/profesores/${profesor.id}`} className="w-5/12 flex justify-between border-t border-slate-600 p-10 items-center hover:bg-blue-950/50 max-md:w-full">
+                        <Link href={`/Integrantes/profesores/${profesor.id}`} className="w-5/12 flex justify-between border-t border-slate-600 p-10 items-center hover:bg-blue-950/50 duration-700 max-md:w-full">
                         
                         
 
@@ -25,7 +25,7 @@ export default function Integrantes() {
                         alt={profesor.nombre} 
                         width={200}
                         height={200}
-                        className=" rounded-full"
+                        className=" rounded-full max-md:w-30 max-md:h-30"
                         priority 
                         />
                         <div className="text-base">
@@ -45,7 +45,7 @@ export default function Integrantes() {
         {
             alumnosData.map(alumno => (
                  <div key={alumno.id} className="flex justify-center py-5 gap-5">
-                        <Link href={`/Integrantes/alumnos/${alumno.id}`} className="w-4/12 flex justify-between border-t border-slate-600 p-10 items-center hover:bg-blue-500/30 max-md:w-full">
+                        <Link href={`/Integrantes/alumnos/${alumno.id}`} className="w-4/12 flex justify-between border-t border-slate-600 p-10 items-center hover:bg-blue-500/30 duration-700 max-md:w-full">
                         <Image 
                         src={alumno.imagen} 
                         alt={alumno.nombre} 

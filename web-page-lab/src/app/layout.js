@@ -4,6 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from 'next/link';
 import { DM_Sans} from 'next/font/google';
+import MenuMovil from "../../components/menuMovil";
 
 
 
@@ -22,7 +23,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={roboto.className}>
-        <header className="px-10 text-blue-50 bg-blue-900 py-4 overflow-hidden relative" >
+        <MenuMovil/>
+
+        <header className="px-10 text-blue-50 bg-blue-900 py-4 overflow-hidden relative max-md:pt-25"  >
+          
+
           
           
           <div className="flex justify-center w-full">
@@ -38,7 +43,7 @@ export default function RootLayout({ children }) {
                 priority 
                 />
                 Laboratorio de Ciencia Matematicas y Computacionales</h1>
-              <ul className="nav-links overflow-visible relative">
+              <ul className="flex flex-wrap list-none overflow-visible relative *:hover:bg-zinc-950/60 *:py-1 *:px-5 *:mt-2 *:duration-500 max-md:hidden">
                 <li ><Link href="/">Inicio</Link></li>
                 <li><Link href="/Integrantes">Integrantes</Link></li>
                 <li><Link href="/proyectos">Proyectos</Link></li>
@@ -54,7 +59,7 @@ export default function RootLayout({ children }) {
               alt="Promoción 3" 
               width={150}
               height={150}
-              className="object-cover h-50 w-50 bg-white/50 mask-l-from-0 absolute -top-4 right-0 "
+              className="object-cover h-50 w-50 bg-white/50 mask-l-from-0 absolute -top-4 right-0 max-md:hidden "
               priority 
               />
             
@@ -66,7 +71,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
 
-        <footer className="text-center py-10 text-blue-50 bg-stone-800">
+        <footer className="text-center py-10 text-blue-50 bg-stone-800 max-md:text-sm">
           <div>
             <p>&copy; 2025 Laboratorio de Ciencias Matematicas y Computacionales. Centro de Invetigacion en Computacion. Todos los derechos reservados.</p>
           </div>

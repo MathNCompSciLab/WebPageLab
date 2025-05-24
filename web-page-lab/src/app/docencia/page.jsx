@@ -14,8 +14,8 @@ export default function Docencia()
           {dataProfesores.map((profesor) => (
             profesor.cursos && (
               <div key={profesor.id} className="p-6 border border-slate-600 flex justify-between items-center max-md:flex-col max-md:px-0 ">
-              <p className="text-2xl w-1/2"> {profesor.nombre}</p>
-              <ul className="list-disc text-left w-1/2 text-xl">
+              <p className="text-2xl w-1/2 max-md:w-full max-md:mb-4"> {profesor.nombre}</p>
+              <ul className="list-disc text-left w-1/2 text-xl max-md:w-full max-md:pl-6">
                 {profesor.cursos.map((curso, index) => (
                   <li key={index}>{curso}</li>
                 ))}

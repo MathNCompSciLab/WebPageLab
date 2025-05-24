@@ -1,108 +1,11 @@
 @import "tailwindcss";
 @import "tailwindcss/utilities";
 
-:root {
-  --primary-color: #3498db;
-  --secondary-color: #070708;
-  --background-color: #18181b;
-  --text-color: #ffffff;
-  --header-bg: #000b49;
-  --header-text: #eef5ff;
-  --footer-bg: #142157;
-  --footer-text: #eef5ff;
-}
+
 
 body {
-  background-color: var(--background-color);
-  line-height: 1.6;
+  background-color: #18181b ;
+  line-height: 1.5;
 }
 
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 5px;
-  margin-left: 70px;
-  
-}
-
-.nav-links li {
-  display: inline;
-  
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  padding: 5px 25px;
-  display: block;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-.nav-links a:hover {
-  
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.nav-links button {
-  background-color: transparent;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  text-align: left;
-  padding: 5px 10px;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-.nav-links button:hover {
-  
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.menu-desplegable {
-  
-  position: absolute;
-  background-color: #030712;
-  border-right: 1px solid #d9e9ff;
-  border-bottom: 1px solid #d9e9ff;
-
-  width: 200px;
-  margin-top: 10px;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  align-items: flex-start;
-  z-index: 1000;
-
-}
-
-.menu-desplegable .menu-desplegableprofesores {
-  position: absolute;
-  background-color: #030712;
-  border-right: 1px solid #d9e9ff;
-  border-bottom: 1px solid #d9e9ff;
-  width: 300px;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  align-items: flex-start;
-  z-index: 1000;
-}
-.menu-desplegable .menu-desplegablealumnos {
-  padding-left: 10px;
-  
-}
-
-.menu-desplegable button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.menu-desplegable a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}

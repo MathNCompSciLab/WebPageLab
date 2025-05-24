@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div>
         
-       <div>
+       <div className="max-md:hidden">
          <BannerRotativo banners={banners} intervalo={"9000"} />
         </div>
 
@@ -43,24 +43,12 @@ export default function Home() {
       <section className="bg-gradient-to-br from-blue-500 via-gray-800 to-blue-500 text-white h-full">
         <div className=" bg-[url('/Laboratorio/3.jpg')]  mask-radial mask-radial-at-center mask-radial-from-10%  mask-radial-to-100% h-screen z-0 bg-fixed"> 
 
-          
-
-          
-          {/* <Image 
-          src="/Laboratorio/3.jpg" 
-          alt="Promoción 3" 
-          width={1000}
-          height={600}
-          className="object-cover mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-100% flex-10/12 h-screen" 
-          priority 
-          /> */}
-
             
           </div>
 
-          <div className=" text-blue-100 max-h-full w-9/12 flex flex-col justify-center bg-gray-950 p-10 mx-auto rounded-4xl z-10 absolute top-9/12 left-1/2 transform -translate-x-1/2 ">
-          <h2 className="text-4xl mb-6 text-center">Bienvenido</h2>
-          <p className="text-center text-lg text-balance ">Esta es la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
+          <div className=" text-blue-100 max-h-full w-9/12 flex flex-col justify-center bg-gray-950 p-10 mx-auto rounded-4xl z-10 absolute top-9/12 left-1/2 transform -translate-x-1/2 max-md:top-5/12 max-md:w-full ">
+          <h2 className="text-4xl mb-6 text-center max-md:text-3xl">Bienvenido</h2>
+          <p className="text-center text-base text-balance max-md:text-sm ">Esta es la página principal del Laboratorio de Ciencias Matemáticas y Computacionales 
             del Centro de Investigación en Computación del IPN. Hoy en día, el modelado matemático y computacional
             de fenómenos naturales representa un reto metodológico, ya que requiere el conocimiento de diferentes
             metodologías. La misión principal del laboratorio es aplicar métodos formales, es decir, técnicas
@@ -118,7 +106,7 @@ export default function Home() {
 
       
       <section className=" text-white h-screen flex items-center flex-wrap " id="investigacion">
-          <div className="ml-30 ml- border-t-1 border-slate-100 pt-15 z-30">
+          <div className="ml-30 ml- border-t-1 border-slate-100 pt-15 z-30 max-md:ml-0">
             <ul className="list-disc mx-20" > <h2  className="mb-5 text-3xl font-medium text-center">Lineas de investigacion</h2>
               <li>Matemáticas Puras</li>
               <li>Matemáticas Aplicadas</li>
@@ -134,7 +122,7 @@ export default function Home() {
               <li>1Inteligencia Artificial Simbólica</li>
             </ul>
           </div>
-          <div className="ml-10 border-t-1 border-slate-100 pt-15 z-30">
+          <div className="ml-10 border-t-1 border-slate-100 pt-15 z-30 max-md:ml-0 max-md:mt-10">
             <ul className="list-disc mx-20"> <h2 className="mb-5 text-3xl font-medium text-center">Aplicaciones </h2>
               <li>Predicción climática o epidemiológica </li>
               <li>Predicción de colapsos financieros </li>
@@ -157,10 +145,10 @@ export default function Home() {
 
 
       {/* Sección 4 */}
-      <section className="text-white h-[70vh]" id="objetivos">
-      <h2 className="text-center text-4xl text-blue-100 my-20">Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
+      <section className="text-white h-[70vh] py-20 max-md:h-full " id="objetivos">
+      <h2 className="text-center text-4xl text-blue-100 my-20 max-md:mt-60 max-md:my-5">Objetivos del Laboratorio de Ciencias Matemáticas y Computacionales</h2>
           <div className="flex justify-around">
-            <ul className="list-disc text-left ml-30">
+            <ul className="list-disc text-left ml-30 max-md:ml-10">
               <li>Realizar investigación básica y aplicada en las áreas de matemáticas puras y aplicadas, computación científica, ciencia de datos y machine learning.</li>
               <li>Desarrollar proyectos de investigación en colaboración con otras instituciones académicas y de investigación.</li>
               <li>Formar recursos humanos altamente capacitados en matemáticas y computación.</li>
@@ -177,7 +165,7 @@ export default function Home() {
             alt="Promoción 3" 
             width={250}
             height={250}
-            className="object-cover w-auto h-auto "
+            className="object-cover w-auto h-auto max-md:hidden"
             priority 
             />
             </div>
@@ -187,7 +175,7 @@ export default function Home() {
 
 
       {/* Sección 5 */}
-      <section className="text-blue-100 flex p-10 h-screen flex-row-reverse gap-6" id="historia">
+      <section className="text-blue-100 flex p-10 h-screen flex-row-reverse gap-6 max-md:h-full  " id="historia">
           <Image 
           src="/Laboratorio/19.jpg" 
           alt="Promoción 3" 
@@ -196,7 +184,7 @@ export default function Home() {
           className="object-cover absolute left-0 mask-radial mask-radial-at-left mask-radial-from-10%  mask-radial-to-70% h-[90vh] brightness-80 my-10 w-auto "
           priority 
           />
-          <div className="my-10 self-center w-4xl mx-10 z-30">
+          <div className="my-10 self-center w-4xl mx-10 z-30 max-md:mx-0">
             <h2 className="text-4xl  text-center mb-4 ">Historia</h2>
             <p>El laboratorio de Ciencias Matemáticas y Computacionales fue fundado en el año 2000 con el objetivo de realizar investigación básica y aplicada en las áreas de matemáticas puras y aplicadas, computación científica, ciencia de datos y machine learning. Desde su fundación, el laboratorio ha llevado a cabo numerosos proyectos de investigación en
               colaboración con otras instituciones académicas y de investigación, tanto a nivel nacional como internacional.
