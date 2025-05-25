@@ -1,11 +1,11 @@
 "use client"
 import Style from './articulos.module.css';
 import { useState} from 'react';
+import articulosData from '@/data/dataArticulos.JSON';
 
 
 export default function Articulos()
 {
-    const articulosData = require('../../data/dataArticulos.JSON');
     
     const [isOpen, setIsOpen] = useState("");
 

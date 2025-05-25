@@ -1,8 +1,8 @@
 import Link from 'next/link';
+import dataProfesores from '../../data/dataProfesores.JSON';
 
 export default function Docencia()
 {
-  const dataProfesores = require('../../data/dataProfesores.JSON');
 
     return(
       <div className="text-center text-blue-100 h-screen flex flex-col items-center max-md:h-full">

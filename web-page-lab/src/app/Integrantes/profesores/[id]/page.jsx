@@ -1,14 +1,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import profesoresData from '@/data/dataProfesores.json';
+import articulosData from '@/data/dataArticulos.json';
+import proyectosData from '@/data/dataProyectos.json';
+import tesisData from '@/data/dataTesis.json';
 
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const profesoresData = require('../../../../data/dataProfesores.json');
-  const articulosData = require('../../../../data/dataArticulos.json');
-  const proyectosData = require('../../../../data/dataProyectos.json');
-  const tesisData = require('../../../../data/dataTesis.json');
   const profesor = profesoresData.find(prof => prof.id === id);
   const articulos = articulosData.filter(articulo => {
     return articulo.autores.includes(profesor.nombre);

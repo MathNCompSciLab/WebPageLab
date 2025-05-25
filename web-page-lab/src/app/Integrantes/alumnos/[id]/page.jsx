@@ -1,11 +1,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import alumnosData from '@/data/dataAlumnos.JSON';
 
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const alumnosData = require('../../../../data/dataAlumnos.JSON');
   const alumno = alumnosData.find(prof => prof.id === id);
   
 

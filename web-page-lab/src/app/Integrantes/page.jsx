@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import alumnosData from '@/data/dataAlumnos.JSON';
+import profesoresData from '@/data/dataProfesores.json';
 export default function Integrantes() {
     
-  const alumnosData = require('../../data/dataAlumnos.JSON');
-  
-  const profesoresData = require('../../data/dataProfesores.json');
-
 
     return (
         <div className="text-white text-center">

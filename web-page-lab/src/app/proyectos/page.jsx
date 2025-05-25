@@ -1,11 +1,11 @@
 "use client"
 import Style from './proyectos.module.css';
 import { useState} from 'react';
+import proyectosData from '@/data/dataProyectos.JSON';
 
 
 export default function Proyectos()
 {
-    const proyectosData = require('../../data/dataProyectos.JSON');
     
     const [isOpen, setIsOpen] = useState("");
 
