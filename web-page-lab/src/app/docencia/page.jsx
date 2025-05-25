@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import dataProfesores from '../../data/dataProfesores.JSON';
+import dataProfesores from '@/data/dataProfesores.JSON';
 
 export default function Docencia()
 {

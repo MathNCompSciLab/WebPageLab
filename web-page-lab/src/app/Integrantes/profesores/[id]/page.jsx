@@ -1,10 +1,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import profesoresData from '@/data/dataProfesores.json';
-import articulosData from '@/data/dataArticulos.json';
-import proyectosData from '@/data/dataProyectos.json';
-import tesisData from '@/data/dataTesis.json';
+import profesoresData from '@/data/dataProfesores.JSON';
+import articulosData from '@/data/dataArticulos.JSON';
+import proyectosData from '@/data/dataProyectos.JSON';
+import tesisData from '@/data/dataTesis.JSON';
 
 
 export default async function Page({ params }) {

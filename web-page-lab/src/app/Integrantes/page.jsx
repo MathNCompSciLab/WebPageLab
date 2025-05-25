@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import alumnosData from '@/data/dataAlumnos.JSON';
-import profesoresData from '@/data/dataProfesores.json';
+import profesoresData from '@/data/dataProfesores.JSON';
 export default function Integrantes() {
     
 
