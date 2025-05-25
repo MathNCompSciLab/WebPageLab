@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const alumnosData = require('../../../../../public/data/dataAlumnos.JSON');
+  const alumnosData = require('../../../../data/dataAlumnos.JSON');
   const alumno = alumnosData.find(prof => prof.id === id);
   
 

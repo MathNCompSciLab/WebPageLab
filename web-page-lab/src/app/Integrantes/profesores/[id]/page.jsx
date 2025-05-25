@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default async function Page({ params }) {
   const { id } = await params;
-  const profesoresData = require('../../../../../public/data/dataProfesores.json');
-  const articulosData = require('../../../../../public/data/dataArticulos.json');
-  const proyectosData = require('../../../../../public/data/dataProyectos.json');
-  const tesisData = require('../../../../../public/data/dataTesis.json');
+  const profesoresData = require('../../../../data/dataProfesores.json');
+  const articulosData = require('../../../../data/dataArticulos.json');
+  const proyectosData = require('../../../../data/dataProyectos.json');
+  const tesisData = require('../../../../data/dataTesis.json');
   const profesor = profesoresData.find(prof => prof.id === id);
   const articulos = articulosData.filter(articulo => {
     return articulo.autores.includes(profesor.nombre);

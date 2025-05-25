@@ -5,7 +5,7 @@ import { useState} from 'react';
 
 export default function Proyectos()
 {
-    const proyectosData = require('../../../public/data/dataProyectos.JSON');
+    const proyectosData = require('../../data/dataProyectos.JSON');
     
     const [isOpen, setIsOpen] = useState("");
 

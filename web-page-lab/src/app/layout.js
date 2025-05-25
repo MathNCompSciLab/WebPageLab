@@ -4,7 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from 'next/link';
 import { DM_Sans} from 'next/font/google';
-import MenuMovil from "../../components/menuMovil";
+import MenuMovil from "../components/menuMovil";
 
 
 

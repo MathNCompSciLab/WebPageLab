@@ -5,7 +5,7 @@ import { useState} from 'react';
 
 export default function Articulos()
 {
-    const articulosData = require('../../../public/data/dataArticulos.JSON');
+    const articulosData = require('../../data/dataArticulos.JSON');
     
     const [isOpen, setIsOpen] = useState("");
 

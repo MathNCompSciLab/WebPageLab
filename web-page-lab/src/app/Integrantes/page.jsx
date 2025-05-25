@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Integrantes() {
     
-  const alumnosData = require('../../../public/data/dataAlumnos.JSON');
+  const alumnosData = require('../../data/dataAlumnos.JSON');
   
-  const profesoresData = require('../../../public/data/dataProfesores.json');
+  const profesoresData = require('../../data/dataProfesores.json');
 
 
     return (

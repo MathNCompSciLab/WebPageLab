@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import BannerRotativo from "../../components/bannerRotativo";   
+import BannerRotativo from "../components/bannerRotativo";   
 
 export default function Home() {
   const banners = [
